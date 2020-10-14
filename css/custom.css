@@ -4,6 +4,10 @@
     .carousel_img:hover, .carousel_img:active {
         filter: none;
     }
+    .carousel-indicators {
+        /* In mobile view the bottom indicators have too much margin at the bottom */
+        margin-bottom: 0;
+    }
 }
 @media only screen and (min-width: 768px) { 
     .carousel .carousel_img, .carousel:visited .carousel_img {

@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>wavect.io/categories/</loc>
+    <loc>https://wavect.io/categories/</loc>
   </url>
   
   <url>
-    <loc>wavect.io/tags/</loc>
+    <loc>https://wavect.io/tags/</loc>
   </url>
   
   <url>
-    <loc>wavect.io/</loc>
+    <loc>https://wavect.io/</loc>
   </url>
   
 </urlset>

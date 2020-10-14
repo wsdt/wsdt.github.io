@@ -1,3 +1,30 @@
+/* Carousel Impressions */
+.carousel .carousel_img, .carousel:visited .carousel_img {
+    filter: brightness(40%);
+    -webkit-transition: 0.35s -webkit-filter ease-in-out;
+    -moz-transition: 0.35s -moz-filter ease-in-out;
+    -moz-transition: 0.35s filter ease-in-out;
+    -ms-transition: 0.35s -ms-filter ease-in-out;
+    -o-transition: 0.35s -o-filter ease-in-out;
+    transition: 0.35s filter ease-in-out, 0.35s -webkit-filter ease-in-out;
+}
+.carousel:hover .carousel_img, .carousel:active .carousel_img {
+    filter: brightness(100%);
+}
+.carousel:hover .carousel-caption, .carousel:active .carousel-caption {
+    visibility:hidden;
+    opacity: 0;
+    transition: visibility 0s ease-in-out 0.35s, opacity 0.35s;
+}
+.carousel-caption h2 {
+    color: #eee;
+    font-size:2.4em;
+}
+.carousel-caption p {
+    color: #aaa;
+    font-size:1.2em;
+}
+
 .navbar {
     /* Add min-height to navbar, to avoid that toggle-button overflows vertically in mobile view. */
     min-height: 50px;

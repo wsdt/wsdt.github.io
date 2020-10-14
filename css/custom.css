@@ -1,3 +1,8 @@
+.navbar {
+    /* Add min-height to navbar, to avoid that toggle-button overflows vertically in mobile view. */
+    min-height: 50px;
+}
+
 /* Margin when columns becomes a row in grid */
 .col-row-margin {
     margin-top: 20px;

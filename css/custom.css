@@ -81,8 +81,11 @@ img, img:visited {
     -o-transition: 0.25s -o-filter ease-in-out;
     transition: 0.25s filter ease-in-out, 0.25s -webkit-filter ease-in-out;
 
-    background: url(../img/utils/loading_infinity.svg) 50% 50% no-repeat;
-    background-position: 50% 50%;
+    background: url(../img/utils/loading_infinity.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 img:hover, img:active {
     filter: grayscale(100%);

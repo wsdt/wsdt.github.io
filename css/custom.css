@@ -85,7 +85,6 @@ img, img:visited {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    width: 100%!important;
 }
 img:hover, img:active {
     filter: grayscale(100%);

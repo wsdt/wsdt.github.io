@@ -84,7 +84,7 @@ img, img:visited {
     background: url(../img/utils/loading_infinity.svg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 img:hover, img:active {
     filter: grayscale(100%);

@@ -80,6 +80,8 @@ img, img:visited {
     -ms-transition: 0.25s -ms-filter ease-in-out;
     -o-transition: 0.25s -o-filter ease-in-out;
     transition: 0.25s filter ease-in-out, 0.25s -webkit-filter ease-in-out;
+
+    /* background: url(../img/utils/loading_infinity.svg) 50% 50% no-repeat; */
 }
 img:hover, img:active {
     filter: grayscale(100%);

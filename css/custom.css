@@ -89,7 +89,8 @@ img, img:visited {
 img:hover, img:active {
     filter: grayscale(100%);
 }
-.hide-loading-indicator {
+img[src$='.png'], .hide-loading-indicator {
+    /* Hide background for transparent images */
     background: none;
 }
 
@@ -126,7 +127,7 @@ a h4:hover, a h4:active {
         max-width: 45%;
     }
 }
-.chip{
+.chip {
     display: inline-flex;
     flex-direction: row;
     background-color: #e5e5e5;
@@ -146,6 +147,7 @@ a h4:hover, a h4:active {
     vertical-align: middle;
     text-decoration: none;
     justify-content: center;
+    margin: 5px 15px 15px 15px;
 }
 .chip-head{
     display: flex;
@@ -176,7 +178,7 @@ a h4:hover, a h4:active {
     cursor: pointer;
     height: auto;
     margin: 4px 4px 0 -8px;
-  fill: currentColor;
+    fill: currentColor;
     width: 1em;
     height: 1em;
     display: inline-block;
@@ -194,7 +196,7 @@ a h4:hover, a h4:active {
     float: right;
 }
 
-/* Hid link indicators (blue color, underline, ..)*/
+/* Hide link indicators (blue color, underline, ..)*/
 .hide_link, .hide_link:visited, .hide_link:hover, .hide_link:active {
     color: inherit;
     text-decoration: none;

@@ -213,6 +213,8 @@
 
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 
+<meta name="description" 
+    content="Your Long-Term Partner for High-Tech Solutions. Just to enumerate a few: App-/Web-Development, IoT, Blockchain, Quantum Computing, A.I., Deployment with Docker, Workshops & Presentations, ...">
 
 	
 
@@ -1191,7 +1193,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/coding4kids_2020_4.jpg" class="d-block w-100 carousel_img" alt="Coding4Kids 2020 - Group"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Coding4Kids 2020</h4>
+                  <span class="image-heading">Coding4Kids 2020</span>
                   <p>Taught Scratch to 10-14 year olds at WIFI Innsbruck.</p>
                 </div>
               </div>
@@ -1202,7 +1204,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/beady_awards_2019.jpg" class="d-block w-100 carousel_img" alt="Beady Awards 2019 - Startup Pitch"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Beady Awards 2019</h4>
+                  <span class="image-heading">Beady Awards 2019</span>
                   <p>Pitched our Social-Tech Startup at the Beady Days 2019.</p>
                 </div>
               </div>
@@ -1213,7 +1215,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/innovation_days_ikb_2018.jpg" class="d-block w-100 carousel_img" alt="Innovation Days 2018 - Group"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Innovation Days 2018</h4>
+                  <span class="image-heading">Innovation Days 2018</span>
                   <p>We&#39;ve won the IKB IoT-Challenge in 2018.</p>
                 </div>
               </div>
@@ -1224,7 +1226,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/startup_co-founder_1.jpg" class="d-block w-100 carousel_img" alt="Startup - Core Developer-Team"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Startup - Developers</h4>
+                  <span class="image-heading">Startup - Developers</span>
                   <p>Christof J. and I used to and still work together on a variety of projects.</p>
                 </div>
               </div>
@@ -1235,7 +1237,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/startup_inncubator.jpg" class="d-block w-100 carousel_img" alt="Inncubator - Startup"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Startup - Inncubator</h4>
+                  <span class="image-heading">Startup - Inncubator</span>
                   <p>Just a nice team picture of the abolished Startup.</p>
                 </div>
               </div>
@@ -1246,7 +1248,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/oesterreich_gespraeche_2019.jpg" class="d-block w-100 carousel_img" alt="Political Talks"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Political Talks 2019</h4>
+                  <span class="image-heading">Political Talks 2019</span>
                   <p>Took part as neutral party in an ÖVP meeting.</p>
                 </div>
               </div>
@@ -1257,7 +1259,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/adventure_x_2019.jpg" class="d-block w-100 carousel_img" alt="AdventureX 2019 - Startup Pitch"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>AdventureX 2019</h4>
+                  <span class="image-heading">AdventureX 2019</span>
                   <p>Our Social-Tech startup got into the Top 6 of &gt;50 business models.</p>
                 </div>
               </div>
@@ -1268,7 +1270,7 @@ theme_color="#76b9c3">
                 <img src="/img/impressions/startup_co-founder_2.jpg" class="d-block w-100 carousel_img" alt="Startup - Core Business-Team"
                   style="min-height:150px">
                 <div class="carousel-caption d-none d-md-block">
-                  <h2>Startup - Business</h4>
+                  <span class="image-heading">Startup - Business</span>
                   <p>Daniel G. and I worked together at a Blockchain as well as Social-Tech startup.</p>
                 </div>
               </div>
@@ -1447,8 +1449,10 @@ theme_color="#76b9c3">
     observer.observe();
   });
 </script>
-<script src='https://wavect.io/js/library/jquery-3.3.1.slim.min.js'></script>
-<script src='https://wavect.io/js/library/bootstrap.min.js'></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src='https://wavect.io/js/sticky-header.js'></script>
 <script src='https://wavect.io/js/library/smooth-scroll.polyfills.min.js'></script>
 <script src='https://wavect.io/js/library/fontfaceobserver.js'></script>
@@ -1480,16 +1484,19 @@ theme_color="#76b9c3">
       w.document.documentElement.className += " fonts-loaded";
     });
   })(this);
-</script>
-<script>
+
+
+ 
+
   const scroll = new SmoothScroll('a[href*="#"]');
-    $('a.nav-link').on('click', () => {
-      const navbar = $('.navbar-collapse');
-      if (navbar && navbar.hasClass('show')) {
-        $('.navbar-toggler').click();
-      }
-    })
+  $('a.nav-link').on('click', () => {
+    const navbar = $('.navbar-collapse');
+    if (navbar && navbar.hasClass('show')) {
+      $('.navbar-toggler').click();
+    }
+  })
 </script>
+
 
 </body>
 

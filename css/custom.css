@@ -1,4 +1,9 @@
 /* Carousel Impressions */
+.image-heading {
+    /* Used to avoid using a h-tag (SEO) */
+    font-size: 3em;
+    font-weight: bold;
+}
 @media only screen and (max-width: 767px) {
     .carousel_img, .carousel_img:visited,
     .carousel_img:hover, .carousel_img:active {

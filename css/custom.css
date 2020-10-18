@@ -1,3 +1,7 @@
+.bold {
+    font-weight: bold;
+}
+
 /* Carousel Impressions */
 .image-heading {
     /* Used to avoid using a h-tag (SEO) */

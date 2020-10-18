@@ -2,6 +2,7 @@
     font-weight: bold;
 }
 
+
 /* Carousel Impressions */
 .image-heading {
     /* Used to avoid using a h-tag (SEO) */
@@ -107,6 +108,7 @@ img[src$='.png'], .hide-loading-indicator {
 a {
     /* Remove underline from links, but add opacity instead */
     text-decoration: none!important;
+    color: #e93e34;
 }
 a span, a h1, a h2, a h3, a h4 {
     filter: opacity(100%);

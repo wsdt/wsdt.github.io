@@ -1,4 +1,5 @@
 @font-face {
+font-display: swap;
   font-family: 'rad-icons';
   src: url('../fonts/rad-icons.eot?32706191');
   src: url('../fonts/rad-icons.eot?32706191#iefix') format('embedded-opentype'),
@@ -14,6 +15,7 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
+font-display: swap;
     font-family: 'rad-icons';
     src: url('../font/rad-icons.svg?32706191#rad-icons') format('svg');
   }

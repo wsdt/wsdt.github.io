@@ -27,6 +27,7 @@
     .carousel_img, .carousel_img:visited,
     .carousel_img:hover, .carousel_img:active {
         filter: none;
+        cursor: pointer;
     }
     .carousel-indicators {
         /* In mobile view the bottom indicators have too much margin at the bottom */
@@ -35,6 +36,7 @@
 }
 @media only screen and (min-width: 768px) { 
     .carousel .carousel_img, .carousel:visited .carousel_img {
+        cursor: pointer;
         filter: brightness(40%);
         -webkit-transition: 0.35s -webkit-filter ease-in-out;
         -moz-transition: 0.35s -moz-filter ease-in-out;

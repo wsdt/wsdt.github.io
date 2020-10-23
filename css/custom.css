@@ -160,7 +160,7 @@ a h4:hover, a h4:active {
     flex-direction: row;
     background-color: #e5e5e5;
     border: none;
-    cursor: default;
+    cursor: pointer;
     min-height: 54px;
     outline: none;
     padding: 5px;
@@ -209,6 +209,7 @@ a h4:hover, a h4:active {
     align-items: center;
     user-select: none;
     white-space: normal;
+    margin-left: 10px;
 }
 .chip-svg{
     color: #999999;
@@ -238,3 +239,99 @@ a h4:hover, a h4:active {
     color: inherit;
     text-decoration: none;
 }
+
+
+/* Abilities */
+  .ability-block, .service-block:visited {
+    padding: 40px 20px 30px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    -webkit-transition: 0.35s -webkit-opacity ease-in-out;
+    -moz-transition: 0.35s -moz-opacity ease-in-out;
+    -moz-transition: 0.35s opacity ease-in-out;
+    -ms-transition: 0.35s -ms-opacity ease-in-out;
+    -o-transition: 0.35s -o-opacity ease-in-out;
+    transition: 0.35s opacity ease-in-out, 0.35s -webkit-opacity ease-in-out;
+    -webkit-transition: 0.35s -webkit-transform ease-in-out;
+    -moz-transition: 0.35s -moz-transform ease-in-out;
+    -moz-transition: 0.35s transform ease-in-out;
+    -ms-transition: 0.35s -ms-transform ease-in-out;
+    -o-transition: 0.35s -o-transform ease-in-out;
+    transition: 0.35s transform ease-in-out, 0.35s -webkit-transform ease-in-out;
+  }
+  .ability-block:active, .ability-block:hover {
+    opacity: 70%;
+    transform: rotate(10deg);
+  }
+  
+  .ability-block p,
+  .ability-block h2 {
+    color: #fff;
+  }
+  
+  .ability-block h2 a:hover{
+    text-decoration: none;
+  }
+  
+  .ability-block-light,
+  .ability-block-default {
+    background: #fafafa;
+    border: solid 1px #eee; 
+  }
+  
+  .ability-block-default:hover {
+    box-shadow: 0 0 8px #eee;
+  }
+  
+  .ability-block-light p,
+  .ability-block-light h2,
+  .ability-block-default p,
+  .ability-block-default h2 {
+    color: #555;
+  }
+  
+  .ability-block-u {
+    background: #72c02c;
+  }
+  .ability-block-blue {
+    background: #3498db;
+  }
+  .ability-block-red {
+    background: #e74c3c;
+  }
+  .ability-block-sea {
+    background: #1abc9c;
+  }
+  .ability-block-grey {
+    background: #95a5a6;
+  }
+  .ability-block-yellow {
+    background: #f1c40f;
+  }
+  .ability-block-orange {
+    background: #e67e22;
+  }
+  .ability-block-green {
+    background: #2ecc71;
+  }
+  .ability-block-purple {
+    background: #9b6bcc;
+  }
+  .ability-block-aqua {
+    background: #27d7e7;
+  }
+  .ability-block-brown {
+    background: #9c8061;
+  }
+  .ability-block-dark-blue {
+    background: #4765a0;
+  }
+  .ability-block-light-green {
+    background: #79d5b3;
+  }
+  .ability-block-dark {
+    background: #555;
+  }
+  .ability-block-light {
+    background: #ecf0f1;
+  }

@@ -155,7 +155,7 @@ a h4:hover, a h4:active {
         max-width: 45%;
     }
 }
-.chip {
+.chip, .chip:visited {
     display: inline-flex;
     flex-direction: row;
     background-color: #e5e5e5;
@@ -176,6 +176,15 @@ a h4:hover, a h4:active {
     text-decoration: none;
     justify-content: center;
     margin: 5px 15px 15px 15px;
+    -webkit-transition: 0.35s -webkit-background-color ease-in-out;
+    -moz-transition: 0.35s -moz-background-color ease-in-out;
+    -moz-transition: 0.35s background-color ease-in-out;
+    -ms-transition: 0.35s -ms-background-color ease-in-out;
+    -o-transition: 0.35s -o-background-color ease-in-out;
+    transition: 0.35s background-color ease-in-out, 0.35s -webkit-filter ease-in-out;
+}
+.chip:hover, .chip:active {
+    background-color: #b5b5b5;
 }
 .chip-head{
     display: flex;

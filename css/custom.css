@@ -14,6 +14,7 @@
     font-size: 20px;
     margin-top: 8px;
     display: block;
+    filter: none!important; /* Remove opacity hover effect */
 }
 .distinction-description {
     font-weight: bold;
@@ -144,6 +145,7 @@ img, img:visited {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    object-fit: contain; /* to keep the relation when screen-size changes */
 }
 img:hover, img:active {
     filter: grayscale(100%);

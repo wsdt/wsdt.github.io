@@ -3,6 +3,12 @@ i {
     font-size: 15px;
 }
 
+.major-icon {
+    font-size: 18px;
+    padding: 5px 20px 5px 5px;
+    color: black!important;
+}
+
 .big-icon {
     font-size: 40px;
 }

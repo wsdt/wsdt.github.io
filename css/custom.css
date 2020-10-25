@@ -1,5 +1,7 @@
-.cookiealert {
-  z-index: 2147483645; /* display over facebook messenger */
+@media only screen and (max-width: 768px) {
+  .cookiealert {
+    z-index: 2147483645; /* display over facebook messenger but only on mobile as cookie alert otherwise overlapped */
+  }
 }
 
 i {

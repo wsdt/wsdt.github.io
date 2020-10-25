@@ -30,10 +30,11 @@ i {
     padding-top: 10px;
     padding-bottom: 80px;
 }
-.distinction, .distinction:visited {
+.distinction, .distinction:visited,
+.service-principle {
     text-align: center;
-    color: #ccc;
     margin-top: 40px;
+    color: #ddd;
     -webkit-transition: 0.35s -webkit-color ease-in-out;
     -moz-transition: 0.35s -moz-color ease-in-out;
     -moz-transition: 0.35s color ease-in-out;
@@ -44,11 +45,14 @@ i {
 .distinction:hover, .distinction:active {
   color: #000;
 }
-.distinction-title {
+.distinction-title, .service-principle-title {
     font-size: 20px;
     margin-top: 8px;
     display: block;
     filter: none!important; /* Remove opacity hover effect */
+}
+.service-principle-title {
+  min-height: 60px; /* Only for service principle as it has no subtitle/description */
 }
 .distinction-description {
     font-weight: bold;

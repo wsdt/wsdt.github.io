@@ -26,10 +26,19 @@ i {
     padding-top: 10px;
     padding-bottom: 80px;
 }
-.distinction {
+.distinction, .distinction:visited {
     text-align: center;
     color: #ccc;
     margin-top: 40px;
+    -webkit-transition: 0.35s -webkit-color ease-in-out;
+    -moz-transition: 0.35s -moz-color ease-in-out;
+    -moz-transition: 0.35s color ease-in-out;
+    -ms-transition: 0.35s -ms-color ease-in-out;
+    -o-transition: 0.35s -o-color ease-in-out;
+    transition: 0.35s color ease-in-out, 0.35s -webkit-color ease-in-out;
+}
+.distinction:hover, .distinction:active {
+  color: #000;
 }
 .distinction-title {
     font-size: 20px;

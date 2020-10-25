@@ -1,3 +1,7 @@
+.cookiealert {
+  z-index: 2147483645; /* display over facebook messenger */
+}
+
 i {
     padding: 5px;
     font-size: 15px;

@@ -1,4 +1,5 @@
 @media only screen and (max-width: 768px) {
+  /* Mobile */
   .cookiealert {
     z-index: 2147483645!important; /* display over facebook messenger but only on mobile as cookie alert otherwise overlapped */
   }

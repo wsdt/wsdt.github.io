@@ -26,6 +26,7 @@ i {
 
 .big-icon {
     font-size: 40px;
+    text-shadow: 4px 4px 4px #ededed;
 }
 #distinctions {
     padding-top: 10px;
@@ -35,7 +36,7 @@ i {
 .service-principle {
     text-align: center;
     margin-top: 40px;
-    color: #ddd;
+    color: #ccc;
     -webkit-transition: 0.35s -webkit-color ease-in-out;
     -moz-transition: 0.35s -moz-color ease-in-out;
     -moz-transition: 0.35s color ease-in-out;

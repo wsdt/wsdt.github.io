@@ -1,7 +1,20 @@
+.highlighted_company_logos {
+  margin-top: 30px;
+}
+.highlighted_company_logo {
+  width: auto;
+  max-height: 45px;
+  margin: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   /* Mobile */
   .cookiealert {
     z-index: 2147483645!important; /* display over facebook messenger but only on mobile as cookie alert otherwise overlapped */
+  }
+  .highlighted_company_logos {
+    /* Hide company logos on mobile as simply too much */
+    display: none;
   }
 }
 

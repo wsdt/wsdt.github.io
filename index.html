@@ -200,6 +200,139 @@
             transform: scaleY(1);
         }
     }
+
+
+     
+    @import url(https://fonts.googleapis.com/css?family=Lato:700);
+    .ribbon-box {
+      position: relative;
+      padding-right: 0!important;  
+    }
+    
+     
+    .ribbon {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      position: absolute;
+    }
+    .ribbon::before,
+    .ribbon::after {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      display: block;
+      border: 5px solid #2980b9;
+    }
+    .ribbon span {
+      position: absolute;
+      display: block;
+      width: 225px;
+      padding: 15px 0;
+      background-color: #3498db;
+      box-shadow: 0 5px 10px rgba(0,0,0,.1);
+      color: #fff;
+      font: 700 18px/1 'Lato', sans-serif;
+      text-shadow: 0 1px 1px rgba(0,0,0,.2);
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+     
+    .ribbon-top-left {
+      top: -10px;
+      left: -10px;
+    }
+    .ribbon-top-left::before,
+    .ribbon-top-left::after {
+      border-top-color: transparent;
+      border-left-color: transparent;
+    }
+    .ribbon-top-left::before {
+      top: 0;
+      right: 0;
+    }
+    .ribbon-top-left::after {
+      bottom: 0;
+      left: 0;
+    }
+    .ribbon-top-left span {
+      right: -25px;
+      top: 30px;
+      transform: rotate(-45deg);
+    }
+    
+     
+    .ribbon-top-right {
+      top: -10px;
+      right: -10px;
+    }
+    .ribbon-top-right::before,
+    .ribbon-top-right::after {
+      border-top-color: transparent;
+      border-right-color: transparent;
+    }
+    .ribbon-top-right::before {
+      top: 0;
+      left: 0;
+    }
+    .ribbon-top-right::after {
+      bottom: 0;
+      right: 0;
+    }
+    .ribbon-top-right span {
+      left: -25px;
+      top: 30px;
+      transform: rotate(45deg);
+    }
+    
+     
+    .ribbon-bottom-left {
+      bottom: -10px;
+      left: -10px;
+    }
+    .ribbon-bottom-left::before,
+    .ribbon-bottom-left::after {
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    .ribbon-bottom-left::before {
+      bottom: 0;
+      right: 0;
+    }
+    .ribbon-bottom-left::after {
+      top: 0;
+      left: 0;
+    }
+    .ribbon-bottom-left span {
+      right: -25px;
+      bottom: 30px;
+      transform: rotate(225deg);
+    }
+    
+     
+    .ribbon-bottom-right {
+      bottom: -10px;
+      right: -10px;
+    }
+    .ribbon-bottom-right::before,
+    .ribbon-bottom-right::after {
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+    }
+    .ribbon-bottom-right::before {
+      bottom: 0;
+      left: 0;
+    }
+    .ribbon-bottom-right::after {
+      top: 0;
+      right: 0;
+    }
+    .ribbon-bottom-right span {
+      left: -25px;
+      bottom: 30px;
+      transform: rotate(-225deg);
+    }
 </style>
 
 <script src="https://kit.fontawesome.com/434862e682.js" crossorigin="anonymous"></script>
@@ -325,27 +458,23 @@ theme_color="#76b9c3">
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="/#services" title="Services"
-              >SERVICES</a
-            >
+              <a data-scroll class="nav-link" href="/#services" title="Services">SERVICES</a>
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="/#about" title="About"
-              >ABOUT</a
-            >
+              <a data-scroll class="nav-link" href="/#about" title="About">ABOUT</a>
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="/#portfolio" title="Portfolio"
-              >PORTFOLIO</a
-            >
+              <a data-scroll class="nav-link" href="/#portfolio" title="Portfolio">PORTFOLIO</a>
           </li>
           
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="/#contact" title="Contact"
-              >CONTACT</a
-            >
+              <a data-scroll class="nav-link" href="/#contact" title="Contact">CONTACT</a>
+          </li>
+          
+          <li class="nav-item">
+              <a data-scroll class="nav-link" href="https://token.wavect.io" title="Wavect-Token">WAVECT-TOKEN</a>
           </li>
           
         </ul>
@@ -1428,7 +1557,7 @@ theme_color="#76b9c3">
         ></a>
         
       </div>
-      <div class="col-12 col-md-7 pl-md-0 text-right">
+      <div class="col-12 col-md-7 pl-md-0 text-right ">
         <a href="https://github.com/wsdt/AlmostBinary" target="_blank" title="To the Project">
         <img
           class='lozad img-responsive img-clip-left-backward'
@@ -1438,8 +1567,9 @@ theme_color="#76b9c3">
           data-srcset="https://wavect.io/img/works/almost-binary.jpg 1x, https://wavect.io/img/works/almost-binary@2x.jpg 2x"
           alt="AlmostBinary"
           title="AlmostBinary"
-        />
-        </a>
+        /></a>
+
+        
       </div>
       
     </div>
@@ -1448,7 +1578,7 @@ theme_color="#76b9c3">
       class="row row--padded rad-animation-group rad-fade-down "
     >
       
-      <div class="col-12 col-md-7 pl-md-0 text-right">
+      <div class="col-12 col-md-7 pl-md-0 text-right ">
         <a href="https://github.com/wsdt/Wavect_Base" target="_blank" title="To the Project">
         <img
           style="min-width:100%;min-height:100%"
@@ -1459,6 +1589,8 @@ theme_color="#76b9c3">
           alt="Social-Tech Startup &#39;Wavect®&#39;"
           title="Social-Tech Startup &#39;Wavect®&#39;"
         /></a>
+
+        
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
         <h3>Social-Tech Startup &#39;Wavect®&#39;</h3>
@@ -1494,7 +1626,7 @@ theme_color="#76b9c3">
         ></a>
         
       </div>
-      <div class="col-12 col-md-7 pl-md-0 text-right">
+      <div class="col-12 col-md-7 pl-md-0 text-right ">
         <a href="https://github.com/wsdt/Python_Voice_Chatbot" target="_blank" title="To the Project">
         <img
           class='lozad img-responsive img-clip-left-forward'
@@ -1504,8 +1636,9 @@ theme_color="#76b9c3">
           data-srcset="https://wavect.io/img/works/iot.jpg 1x, https://wavect.io/img/works/iot@2x.jpg 2x"
           alt="Smart City &amp; Smart Home"
           title="Smart City &amp; Smart Home"
-        />
-        </a>
+        /></a>
+
+        
       </div>
       
     </div>
@@ -1514,7 +1647,7 @@ theme_color="#76b9c3">
       class="row row--padded rad-animation-group rad-fade-down "
     >
       
-      <div class="col-12 col-md-7 pl-md-0 text-right">
+      <div class="col-12 col-md-7 pl-md-0 text-right ">
         <a href="https://github.com/wsdt/SurviveTheDay" target="_blank" title="To the Project">
         <img
           style="min-width:100%;min-height:100%"
@@ -1525,6 +1658,8 @@ theme_color="#76b9c3">
           alt="Mobile &amp; Web-Apps"
           title="Mobile &amp; Web-Apps"
         /></a>
+
+        
       </div>
       <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
         <h3>Mobile &amp; Web-Apps</h3>
@@ -1535,6 +1670,45 @@ theme_color="#76b9c3">
           title="To the Project">To the Project&nbsp;<i class="fab fa-github"></i
         ></a>
 
+        
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>WavectToken</h3>
+        <p class="lead">
+          Settle invoices in Ethereum, earn WACT-Tokens and redeem them in future projects. As 1 WACT-Token is worth exactly 1 ETH, your state-of-the-art voucher might appreciate in value. Everything as simple as it can be. Just type in your invoice number and the amount of ETH you want to transfer, and you are done! Web3 is coming.
+        </p>
+        <a href="https://github.com/wsdt/WavectToken" target="_blank" class="btn btn-primary"
+          title="To the Project"
+          >To the Project&nbsp;<i class="fab fa-github"></i
+        ></a>
+        
+        <a href="https://token.wavect.io" target="_blank" class="btn btn-secondary"
+          title="Try it">
+            Try it&nbsp;<i class="fab fa-ethereum"></i>
+        </a>
+        
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right ribbon-box">
+        <a href="https://github.com/wsdt/WavectToken" target="_blank" title="To the Project">
+        <img
+          class='lozad img-responsive img-clip-left-backward'
+          style="min-width:100%;min-height:100%"
+          src="https://wavect.io/img/works/wavect-token.jpg"
+          data-src="https://wavect.io/img/works/wavect-token.jpg"
+          data-srcset="https://wavect.io/img/works/wavect-token.jpg 1x, https://wavect.io/img/works/wavect-token@2x.jpg 2x"
+          alt="WavectToken"
+          title="WavectToken"
+        /></a>
+
+        
+          <div class="ribbon ribbon-top-right"><span>NEW</span></div>
         
       </div>
       

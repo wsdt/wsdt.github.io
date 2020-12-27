@@ -217,7 +217,36 @@
   </head>
 
   <body>
-    <header class="header fixed-top rad-animation-group" id="header">
+    	
+	
+
+	
+	
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  xfbml            : true,
+		  version          : 'v8.0'
+		});
+	  };
+
+	  (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	
+	<div class="fb-customerchat"
+	  attribution=setup_tool
+	  page_id="243867366515546"
+theme_color="#76b9c3">
+	</div>
+
+<header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
       <a class="navbar-brand" href="https://wavect.io" title="Home">
@@ -311,6 +340,10 @@
         </li>
         
         <li class="nav-item">
+          <a class="nav-link" href="/blog/" title="Blog">BLOG</a>
+        </li>
+        
+        <li class="nav-item">
           <a class="nav-link" href="/impressum" title="Impressum">IMPRESSUM</a>
         </li>
         
@@ -328,7 +361,17 @@
     </div>
   </div>
 </footer>
- <script src='https://wavect.io/js/library/radity-lib.min.js'></script>
+ <div class="alert text-center cookiealert" role="alert">
+	<b>Do you like cookies?</b> &#x1F36A; 
+		We use cookies to ensure you get the best experience on our website. 
+		<a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+
+	<button type="button" class="btn btn-primary btn-sm acceptcookies">
+		I agree
+	</button>
+</div>
+
+<script src='https://wavect.io/js/library/radity-lib.min.js'></script>
 <script>
   window.addEventListener("load", function() {
     var observer = window.lozad(".lozad", {

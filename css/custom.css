@@ -1,3 +1,13 @@
+/* Needed as main.css only makes h1-3 responsive, but not h4, h5. That's a half-clean workaround */
+@media only screen and (max-width: 768px) {
+  h4 {
+    font-size: 1.1rem;
+  }
+  h5 { 
+    font-size: 1rem;
+  }
+}
+
 .highlighted_company_logos {
   margin-top: 30px;
 }

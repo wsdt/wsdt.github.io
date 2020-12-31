@@ -373,7 +373,28 @@
 <meta property="og:image:alt" content="Wavect® - Your Long-Term Partner for innovative Software-Solutions"/>
 <meta property="og:type" content="website"/>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
+
+
+
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=GTM-WLPHMWH' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WLPHMWH');
+</script>
 
 
 
@@ -406,7 +427,12 @@
 </head>
 
 <body>
-		
+	
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLPHMWH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+	
 	
 
 	
@@ -2296,6 +2322,76 @@ theme_color="#76b9c3">
 
 
 	
+<section class="section section--cta" id="newsletter">
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h2>Newsletter subscription</h2>
+
+
+    
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; color:#000;margin-top:2em;border-radius: 5px;}
+  #mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+  #mc-embedded-subscribe-form .newsletter-form-lbl {font-weight: bold;padding-bottom: 0.4em;}
+  #mc-embedded-subscribe-form #mergeRow-gdpr {padding:0;margin-bottom: 2em;}
+  #mc_embed_signup .content__gdprLegal {margin:1em 0 1em 0}
+  #newsletter-response-container {margin-bottom:2em;font-style: italic;width:90%;}
+  #newsletter-response-container #mce-error-response {color:red;}
+  #newsletter-response-container #mce-success-response {color:green;}
+	#mergeRow-gdpr fieldset label {font-weight: normal;}
+	#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+</style>
+<div id="mc_embed_signup">
+  <form action="https://wavect.us20.list-manage.com/subscribe/post?u=1f42ad9c836b023a02fe04698&amp;id=ea80dc86af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+    
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group">
+          <label for="mce-EMAIL" class="newsletter-form-lbl">Email Address  <span class="asterisk">*</span>
+        </label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
+        <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+            <div class="content__gdpr">
+                <label class="newsletter-form-lbl">Marketing Permissions</label>
+                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+                  <label class="checkbox subfield" for="gdpr_42198">
+                    <input type="checkbox" id="gdpr_42198" name="gdpr[42198]" value="Y" class="av-checkbox gdpr">
+                      <span>Newsletter</span> 
+                  </label>
+                  <label class="checkbox subfield" for="gdpr_44790">
+                    <input type="checkbox" id="gdpr_44790" name="gdpr[44790]" value="Y" class="av-checkbox gdpr">
+                    <span>Temporary Offers</span>
+                  </label>
+                </fieldset>
+            </div>
+        </div>
+          <div id="newsletter-response-container" class="clear">
+            <div class="newsletter-response" id="mce-error-response" style="display:none"></div>
+            <div class="newsletter-response" id="mce-success-response" style="display:none"></div>
+          </div>    
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1f42ad9c836b023a02fe04698_ea80dc86af" tabindex="-1" value=""></div>
+            <div class="clear">
+              <input type="submit" value="Sign Up" name="subscribe" class="btn btn-primary">
+            </div>
+
+            <div class="content__gdprLegal">
+              <small>You can unsubscribe at any time by clicking the link in the footer of our emails.
+                We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.</a></small>
+            </div>
+      </div>
+  </form>
+  </div>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+  
+    </div>
+  </div>
+</div>
+</section>
+
 
 
 	<footer class="footer">
@@ -2347,15 +2443,86 @@ theme_color="#76b9c3">
 </footer>
 
 
-	<div class="alert text-center cookiealert" role="alert">
-	<b>Do you like cookies?</b> &#x1F36A; 
-		We use cookies to ensure you get the best experience on our website. 
-		<a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+	
 
-	<button type="button" class="btn btn-primary btn-sm acceptcookies">
-		I agree
-	</button>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+	
+	var originalCookieStorage = JSON.parse(JSON.stringify(document.cookie));
+
+	function enableCookies() {
+		
+
+	}
+
+	function deleteCookies() {
+	
+
+		
+
+
+		
+
+			
+	}
+
+	function disableCookies() {
+		
+
+		
+
+		
+	}
+
+
+
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39"
+    },
+    "button": {
+      "background": "#14a7d0"
+    }
+  },
+  "type": "opt-in",
+  onInitialise: function (status) {
+		var type = this.options.type;
+		var didConsent = this.hasConsented();
+		if (type == 'opt-in' && didConsent) {
+			
+			enableCookies();
+		}
+		if (type == 'opt-out' && !didConsent) {
+			
+			disableCookies();
+		}
+    },
+    onStatusChange: function(status, chosenBefore) {
+		var type = this.options.type;
+		var didConsent = this.hasConsented();
+		if (type == 'opt-in' && didConsent) {
+			
+			enableCookies();
+		}
+		if (type == 'opt-out' && !didConsent) {
+			
+			disableCookies();
+		}
+    },
+    onRevokeChoice: function() {
+		var type = this.options.type;
+		if (type == 'opt-in') {
+			
+			disableCookies();
+		}
+		if (type == 'opt-out') {
+			
+			enableCookies();
+		}
+    }
+});
+</script>
 
 <script src='https://wavect.io/js/library/radity-lib.min.js'></script>
 <script>

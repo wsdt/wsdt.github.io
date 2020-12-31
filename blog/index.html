@@ -455,9 +455,10 @@
 
 	
 	<div class="fb-customerchat"
+		id="fb-chatplugin"
 	  attribution=setup_tool
 	  page_id="243867366515546"
-theme_color="#76b9c3">
+		theme_color="#76b9c3">
 	</div>
 
 <header class="header fixed-top rad-animation-group" id="header">
@@ -671,6 +672,7 @@ theme_color="#76b9c3">
 	var originalCookieStorage = JSON.parse(JSON.stringify(document.cookie));
 
 	function enableCookies() {
+		document.getElementById('fb-chatplugin').style = "display:block";
 		
 
 	}
@@ -688,13 +690,14 @@ theme_color="#76b9c3">
 
 	function disableCookies() {
 		
+		document.getElementById('fb-chatplugin').style = "display:none";
 
 		
 
 		
 	}
 
-
+disableCookies();
 
 window.cookieconsent.initialise({
   "palette": {

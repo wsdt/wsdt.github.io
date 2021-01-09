@@ -1,3 +1,10 @@
+@media only screen and (min-width: 768px) {
+.no-margin-padding-top-on-desktop {
+  margin-top:0!important;
+  padding-top:0!important;
+}
+}
+
 .cc-banner.cc-bottom {
   z-index: 999999999999999999;
 }

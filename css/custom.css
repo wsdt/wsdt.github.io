@@ -53,6 +53,10 @@
   .navbar-nav .nav-item .dropdown-nav .dropdown-nav-item:hover i {
     opacity: 1;
   }
+  .only-on-mobile {
+    /* Hide pricing on desktop to only show on mobile */
+    display: none!important;
+  }
 }
 
 .navbar-nav .nav-item .dropdown-nav .dropdown-nav-item i {

@@ -332,7 +332,7 @@ img[src$='.png'], .hide-loading-indicator {
 a {
     /* Remove underline from links, but add opacity instead */
     text-decoration: none!important;
-    color: #e93e34;
+    color: #5c95b5;
 }
 a span, a h1, a h2, a h3, a h4 {
     filter: opacity(100%);

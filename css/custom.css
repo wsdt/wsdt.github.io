@@ -291,7 +291,7 @@ i {
     margin-top: 10px;
 }
 
-/* For e.g. client logos*/
+/* For e.g. client logos -> reverse grayscale */
 .grayscale, .grayscale:visited {
     filter: grayscale(100%);
     -webkit-transition: 0.25s -webkit-filter ease-in-out;

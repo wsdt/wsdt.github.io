@@ -59,6 +59,13 @@
   }
 }
 
+.service-pricing-btn {
+  float:right;
+  @media only screen and (max-width:500px) {
+    padding: 5px;
+  }
+}
+
 .navbar-nav .nav-item .dropdown-nav .dropdown-nav-item i {
   opacity: 0;
   transition: opacity 0.2s ease-in-out;

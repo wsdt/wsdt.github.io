@@ -372,11 +372,28 @@ a h4:hover, a h4:active {
     min-height: 30px!important;
   }  
 }
+.chip-turq-light {
+  background-color: #81c5c9;
+}
+.chip-turq-dark {
+  background-color: #459da1;
+}
+
+.chip-blue-light {
+  background-color: #5286b0;
+}
+
+.chip-blue-dark {
+  background-color: #38538c;
+}
+.chip:hover, .chip:active {
+  filter: opacity(75%);
+}
 .chip, .chip:visited {
     display: inline-flex;
     flex-direction: row;
-    background-color: #e5e5e5;
     border: none;
+    color: #fff;
     cursor: pointer;
     min-height: 54px;
     outline: none;
@@ -384,8 +401,6 @@ a h4:hover, a h4:active {
     padding-left: 12px;
     padding-right: 12px;
     font-size: 21px;
-    color: #333333;
-    font-family:"Open Sans", sans-serif;
     white-space: normal;
     align-items: center;
     border-radius: 24px;
@@ -400,36 +415,27 @@ a h4:hover, a h4:active {
     -o-transition: 0.35s -o-background-color ease-in-out;
     transition: 0.35s background-color ease-in-out, 0.35s -webkit-filter ease-in-out;
 }
-.chip:hover, .chip:active {
-    background-color: #b5b5b5;
+.chip-list {
+  list-style: none;
 }
-.chip-head{
-    display: flex;
-    position: relative;
-    overflow: hidden;
-    background-color: #32C5D2;
-    font-size: 2rem;
-    flex-shrink: 0;
-    align-items: center;
-    user-select: none;
-    border-radius: 50%;
-    justify-content: center;
-    width: 54px;
-    color: #fff;
-    height: 54px;
-    font-size: 30px;
-    margin-right: -6px;
+.chip-list li {
+  color: #fff;
+  text-indent: -1.5em;
+}
+.chip-list li::before {
+  display: none;
 }
 .chip-content{
     cursor: inherit;
     display: flex;
+    color: #fff;
     align-items: center;
     user-select: none;
     white-space: normal;
     margin-left: 10px;
 }
 .chip-svg{
-    color: #999999;
+    color: #fff;
     cursor: pointer;
     height: auto;
     margin: 4px 4px 0 -8px;
@@ -441,9 +447,6 @@ a h4:hover, a h4:active {
     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     user-select: none;
     flex-shrink: 0;
-}
-.chip-svg:hover{
-    color: #666666;
 }
 .chip-close {
     padding-left: 15px;

@@ -170,7 +170,7 @@ i {
 .service-principle {
     text-align: center;
     margin-top: 40px;
-    color: #ccc;
+    color: #707F9F;
     -webkit-transition: 0.35s -webkit-color ease-in-out;
     -moz-transition: 0.35s -moz-color ease-in-out;
     -moz-transition: 0.35s color ease-in-out;
@@ -179,7 +179,7 @@ i {
     transition: 0.35s color ease-in-out, 0.35s -webkit-color ease-in-out;
 }
 .distinction:hover, .distinction:active {
-  color: #000;
+  color: #243559;
 }
 .distinction-title, .service-principle-title {
     font-size: 20px;

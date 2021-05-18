@@ -1,5 +1,798 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><style>.rad-fade-in{will-change:opacity,transform;animation-name:rad-fade-in-fallback;animation-duration:5s;animation-fill-mode:both}@keyframes rad-fade-in-fallback{0%{opacity:0}75%{opacity:0}100%{opacity:1}}.fonts-loaded .rad-fade-in.rad-waiting{animation-name:none;opacity:0}.fonts-loaded .rad-fade-in.rad-animate{animation-name:rad-fade-in;animation-duration:1.1s;animation-fill-mode:both}@keyframes rad-fade-in{0%{opacity:0}100%{opacity:1}}.rad-fade-in-long{will-change:opacity,transform;animation-name:rad-fade-in-long-fallback;animation-duration:8s;animation-fill-mode:both}@keyframes rad-fade-in-long-fallback{0%{opacity:0}75%{opacity:0}100%{opacity:1}}.fonts-loaded .rad-fade-in-long.rad-waiting{animation-name:none;opacity:0}.fonts-loaded .rad-fade-in-long.rad-animate{animation-name:rad-fade-in-long;animation-duration:2s;animation-fill-mode:both}@keyframes rad-fade-in-long{0%{opacity:0}20%{opacity:0}100%{opacity:1}}.rad-fade-down{will-change:opacity,transform;animation-name:rad-fade-down-fallback;animation-duration:5s;animation-fill-mode:both;transform:translateY(-30px)}@keyframes rad-fade-down-fallback{0%{opacity:0;transform:translateY(-30px)}75%{opacity:0;transform:translateY(-30px)}100%{opacity:1;transform:translateY(0)}}.fonts-loaded .rad-fade-down.rad-waiting{animation-name:none;opacity:0;transform:translateY(-30px)}.fonts-loaded .rad-fade-down.rad-animate{animation-name:rad-fade-down;animation-duration:1.1s}@keyframes rad-fade-down{0%{opacity:0;transform:translateY(-30px)}100%{opacity:1;transform:translateY(0)}}.rad-scale-down{will-change:opacity,transform;animation-name:rad-scale-down-fallback;animation-duration:5s;animation-fill-mode:both;transform-origin:50% 0}@keyframes rad-scale-down-fallback{0%{opacity:0;transform:scaleY(.95)}75%{opacity:0;transform:scaleY(.95)}100%{opacity:1;transform:scaleY(1)}}.fonts-loaded .rad-scale-down.rad-waiting{animation-name:none;opacity:0;transform:scaleY(.95)}.fonts-loaded .rad-scale-down.rad-animate{animation-name:rad-scale-down;animation-duration:1.1s;animation-fill-mode:both}@keyframes rad-scale-down{0%{opacity:0;transform:scaleY(.95)}100%{opacity:1;transform:scaleY(1)}}@import "https://fonts.googleapis.com/css?family=Lato:700";.ribbon-box{position:relative;padding-right:0!important}.ribbon{width:150px;height:150px;overflow:hidden;position:absolute}.ribbon::before,.ribbon::after{position:absolute;z-index:-1;content:'';display:block;border:5px solid #459da1}.ribbon span{position:absolute;display:block;width:225px;padding:15px 0;background-color:#459da1;box-shadow:0 5px 10px rgba(0,0,0,.1);color:#fff;font:700 18px/1 lato,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.2);text-transform:uppercase;text-align:center}.ribbon-top-left{top:-10px;left:-10px}.ribbon-top-left::before,.ribbon-top-left::after{border-top-color:transparent;border-left-color:transparent}.ribbon-top-left::before{top:0;right:0}.ribbon-top-left::after{bottom:0;left:0}.ribbon-top-left span{right:-25px;top:30px;transform:rotate(-45deg)}.ribbon-top-right{top:-10px;right:-10px}.ribbon-top-right::before,.ribbon-top-right::after{border-top-color:transparent;border-right-color:transparent}.ribbon-top-right::before{top:0;left:0}.ribbon-top-right::after{bottom:0;right:0}.ribbon-top-right span{left:-25px;top:30px;transform:rotate(45deg)}.ribbon-bottom-left{bottom:-10px;left:-10px}.ribbon-bottom-left::before,.ribbon-bottom-left::after{border-bottom-color:transparent;border-left-color:transparent}.ribbon-bottom-left::before{bottom:0;right:0}.ribbon-bottom-left::after{top:0;left:0}.ribbon-bottom-left span{right:-25px;bottom:30px;transform:rotate(225deg)}.ribbon-bottom-right{bottom:-10px;right:-10px}.ribbon-bottom-right::before,.ribbon-bottom-right::after{border-bottom-color:transparent;border-right-color:transparent}.ribbon-bottom-right::before{bottom:0;left:0}.ribbon-bottom-right::after{top:0;right:0}.ribbon-bottom-right span{left:-25px;bottom:30px;transform:rotate(-225deg)}</style><script rel=preconnect defer src=https://kit.fontawesome.com/434862e682.js crossorigin=anonymous></script><link rel=stylesheet href=https://wavect.io/css/main.css><link rel=stylesheet href=https://wavect.io/css/custom.css><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon href=/img/logos/apple-touch-icons/apple-touch-icon.png><link rel=apple-touch-icon sizes=57x57 href=/img/logos/apple-touch-icons/apple-touch-icon-57x57.png><link rel=apple-touch-icon sizes=72x72 href=/img/logos/apple-touch-icons/apple-touch-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/img/logos/apple-touch-icons/apple-touch-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/img/logos/apple-touch-icons/apple-touch-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/img/logos/apple-touch-icons/apple-touch-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/img/logos/apple-touch-icons/apple-touch-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/img/logos/apple-touch-icons/apple-touch-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/img/logos/apple-touch-icons/apple-touch-icon-180x180.png><meta name=keywords content="wavect,hightech,innovation,blockchain,artificial intelligence,ai,iot,internet-of-things,partner,freelancer,software,prototyping"><meta http-equiv=cache-control content="public"><meta name=author content="Kevin Riedl"><meta name=copyright content="&copy; 2020 Wavect, Riedl Kevin"><meta property="og:site_name" content="Wavect.io"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Wavect  - Like an employee, but without the hassle"><meta property="og:type" content="website"><link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css><script rel=preconnect async src="https://www.googletagmanager.com/gtag/js?id=UA-145098098-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-145098098-1')</script><meta name=description content="Most, even software companies don't bother themselves with creating their business homepage. No wonder, that there are a ton of web-agencies out there. But ever asked yourself, how you could possibly evaluate the quality of their work? This guide is some sort of a checklist for your own business."><meta property="og:title" content="Guide to evaluate a website's quality"><meta property="og:description" content="Most, even software companies don't bother themselves with creating their business homepage. No wonder, that there are a ton of web-agencies out there. But ever asked yourself, how you could possibly evaluate the quality of their work? This guide is some sort of a checklist for your own business."><meta property="og:url" content="https://wavect.io/blog/guide-to-evaluate-the-quality-of-websites/"><meta property="og:image" content="map[bak:map[x:/img/blog/headers/bak/blog_header_website-quality.jpg] jp2:map[x:/img/blog/headers/jp2/blog_header_website-quality.jp2] jxr:map[x:/img/blog/headers/jxr/blog_header_website-quality.jxr] webp:map[x:/img/blog/headers/webp/blog_header_website-quality.webp]]"><title>Guide to evaluate a website's quality: Your Long-Term partner for innovative software. | Wavect</title><link rel=canonical href=https://wavect.io/blog/guide-to-evaluate-the-quality-of-websites/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><div id=fb-root></div><script>window.fbAsyncInit=function(){FB.init({xfbml:!0,version:'v8.0'})},window.loadFbMessenger=function(){(function(b,c,d){var a,e=b.getElementsByTagName(c)[0];if(b.getElementById(d))return;a=b.createElement(c),a.id=d,a.src='https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js',e.parentNode.insertBefore(a,e)})(document,'script','facebook-jssdk')}</script><div class=fb-customerchat id=fb-chatplugin attribution=setup_tool page_id=243867366515546 theme_color=#76b9c3></div><header class="header fixed-top rad-animation-group" id=header><div class="container rad-fade-in"><nav class="navbar navbar-expand-lg navbar-light p-0"><a class=navbar-brand href=https://wavect.io title=Home><picture><source srcset="https://wavect.io/img/logos/webp/logo_combination.webp 1x" type=image/webp><source srcset="https://wavect.io/img/logos/jxr/logo_combination.jxr 1x" type=image/vnd.ms-photo><source srcset="https://wavect.io/img/logos/jp2/logo_combination.jp2 1x" type=image/jp2><img class=img-responsive src=https://wavect.io/img/logos/bak/logo_combination.png srcset="https://wavect.io/img/logos/bak/logo_combination.png 1x" alt="Wavect Logo" title="Wavect Logo"></picture></a>
-<button class=navbar-toggler type=button data-toggle=collapse data-target="#navbarSupportedContent, #header" aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class="navbar-nav ml-lg-auto"><li class=nav-item><a class=nav-link href=https://wavect.io title=Home>HOME</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/#services title=Services>SERVICES
-&nbsp;<i class="fas fa-caret-down"></i></a><ul class=dropdown-nav><li class="nav-item dropdown-nav-item"><a href=/pricing data-scroll class=dropdown-nav-link><i class="fas fa-chevron-right"></i>&nbsp;PRICING</a></li></ul></li><li class="nav-item only-on-mobile"><a data-scroll class=nav-link href=/pricing title=Pricing>PRICING</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/#about title=About>ABOUT</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/#portfolio title=Portfolio>PORTFOLIO</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/blog title=Blog>BLOG</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=https://token.wavect.io title=Wavect-Token>WAVECT-TOKEN</a></li></ul></div></nav></div></header><section id=blog class="section section--border-bottom"><div class=container><picture><source srcset="https://wavect.io/img/blog/headers/webp/blog_header_website-quality.webp 1x" type=image/webp><source srcset="https://wavect.io/img/blog/headers/jxr/blog_header_website-quality.jxr 1x" type=image/vnd.ms-photo><source srcset="https://wavect.io/img/blog/headers/jp2/blog_header_website-quality.jp2 1x" type=image/jp2><img class=card-img-top style=max-height:200px;object-fit:cover;margin-bottom:1em src=https://wavect.io/img/blog/headers/bak/blog_header_website-quality.jpg srcset="https://wavect.io/img/blog/headers/bak/blog_header_website-quality.jpg 1x" alt="Guide to evaluate a website's quality" title="Guide to evaluate a website's quality"></picture><div style=float:right><img src="https://img.shields.io/static/v1?label=Published+on&message=28.12.2020&color=blue">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwavect.io%2Fblog%2Fguide-to-evaluate-the-quality-of-websites%2F&count_bg=%235DD0E4&title_bg=%23555555&icon=pagekit.svg&icon_color=%23E7E7E7&title=Read+today+%2F+all-time&edge_flat=false"></div><h2 style=clear:both;margin-top:1em>Guide to evaluate a website's quality</h2><p class=lead>Most, even software companies don't bother themselves with creating their business homepage. No wonder, that there are a ton of web-agencies out there. But ever asked yourself, how you could possibly evaluate the quality of their work? This guide is some sort of a checklist for your own business.</p><div class=row><div class=col-12><h3>1. What most web agencies won't tell you</h3><p class=lead>Just imagine yourself buying whisky in the supermarket. Wouldn't you at least try to check the quality of it? I think you would, because you are about to pay for it. In my experience however, many companies don't check the website they've paid for, because they either don't know how or are not aware that a website should have more than just a shiny design.</p><p class=lead>Let's get back to the whisky example. You can't try the whisky before buying it (at least in most stores), which makes it necessary to evaluate its quality beforehand based on other aspects such as the manufacturers trademark, the price, packaging, online recommendations, color, age, country of origin, odour, etc. Thus, a nice packaging makes the whisky certainly more attractive for buyers, but it won't be a bestseller in the long run if the quality of the actual product doesn't meet the buyers' expectations.</p><p class=lead>The same basically applies to websites. You just don't know how your website is perceived by exactly that audience you want to address which are most of the time people who don't know much about your company (potential applicants/customers,..). Thefore, a good web-design is necessary and helps to attract more visitors to your site, but they will close the browser tab faster than you can imagine if you don't provide interesting and well-elaborated content on your website. Moreover, how are potential customers or applicants supposed to find your online-presence, if your website is not optimized for search-engines (= SEO, Search-Engine-Optimization)? In general, good web agencies do most of the things listed here without being asked to do so. That being said, I've added a short checklist below to get you started.</p><hr><h3>2. What to check?</h3><p class=lead>Please note that this list is just to get you started and shouldn't be considered an exhaustive list. Moreover, many of the points below are related to each other but I considered them important enough to give them an own checkbox.</p><p class=lead><input type=checkbox> <strong>Is your website responsive?</strong><br>In a mobile world a website needs to be usable, fast and clear on a variety of devices such as smartphones, desktop devices and don't forget about tablets. This also means to hide, move or collapse several elements on your site. Please note, that a bad responsiveness can also have a negative impact on your visibility on several search-engines such as Google.</p><p class=lead><input type=checkbox> <strong>Check your SEO rating</strong><br>SEO stands for Search-Engine-Optimization and is one of the most important aspects when creating new websites as it greatly improves the probability to appear on top of e.g. Google's search results. Interestingly, it is also one of the most neglected points. There are free tools out there, which do some simple SEO checks for you (which is enough in most cases), such as <a href=https://www.seobility.net/en/seocheck/ target=_blank title=Seobility>Seobility</a> and <a href=https://seorch.de/ target=_blank title=Seorch>Seorch</a>.</p><p class=lead><input type=checkbox> <strong>Too much animations</strong><br>I love animations too, at least as a developer. Having too much animations (e.g. falling snowflakes all over the page, custom mouse cursors, GIFs, blinking or other noisy animations) will confuse your visitors without any doubt. Don't get me wrong here, some smooth animations such as transitory effects are fine and improve the overall user experience, but know your metes and bounds.<p class=lead><input type=checkbox> <strong>Non-optimized media</strong><br>Media like images, videos and even sound-files can be huge. Which is not necessarily a problem on your machine, will occupy your visitors' bandwidth or even mitigate user experience. As most websites display a lot of images, you should check how much time it takes your browser to download them (take a look into the <a href=https://developers.google.com/web/tools/chrome-devtools/network target=_blank title="Chrome Developer Tools - Network tab tutorial">network tab</a> of your browser developer tools). Every image can be minimized. First of all, check where your images are being used and if the size of the original image matches. In most cases your original images are way too big considering where they are used; e.g. company logo is 4098x4098px on your server, but displayed on your website as 500x500px at maximum (e.g. desktop device). You can resize your images without degrading the quality on <a href=https://picresize.com/ target=_blank title="Resize images online">Picresize</a>. Additionally, you should optimize the quality of your images itself (e.g. amount of colors used, pixel density, ..). In my experience <a href=https://imagecompressor.com/ title="Compress images online" target=_blank>Image-Compressor</a> does a great job while retaining a great image-quality.</p><p class=lead><input type=checkbox> <strong>Spelling</strong><br>I hope you don't find too many grammatical or spelling errors on our website, because they can drastically decrease user-experience and have the potential to make you look less professional.</p><p class=lead><input type=checkbox> <strong>Do you want a Website or Web-Application?</strong><br>No, this is not the same. A website's general purpose is to provide information, while web applications aim to be highly dynamic when interacting with users. So-called Single-Page-Applications (SPAs) such as web-apps made with Angular or React are great for building complex frond-end applications, but they have one very big disadvantage, they are poorly crawled by search-engine robots which may decrease the probability to appear in search results on Google & Co. Nevertheless, most of these frameworks/libraries offer serverside-rendering opposed to the default clientside-rendering of your website. Additionally, there are even frameworks which can be used in conjunction to these technologies, e.g. NextJS (React framework for building server-side or statically rendered web-apps). Therefore, you should check if your website is rendered in a for search-engine robots readable format (although some of them claim to be able to render JavaScript, I assure you they don't read your SPA as you would expect them to).</p><p class=lead><input type=checkbox> <strong>Avoid Autoplay</strong><br>I think most people already know this, but I think this list wouldn't be complete without it. Do not autoplay videos or sounds on your website except the main purpose of that (sub-)page is to play that media. Moreover, even autoplaying videos without sound (e.g. as background video) can be considered a bad practice as this can drastically increase page-load times and eat up the visitors' bandwidth (esp. problematic on mobile devices).</p><p class=lead><input type=checkbox> <strong>General Usability</strong><br>Do not underestimate the power of usability. Most web-agencies don't have usability experts that's why you might encounter several issues related to this point. Just some basic examples to get you started.<ul><li><strong>Too much choices</strong>; Keep it simple and remove unnecessary buttons, options etc.</li><li><strong>Don't try to be different</strong>; Position common objects (e.g. logos, navigation, breadcrumbs, ..) where a user expects them to be.</li><li><strong>Colors are expensive</strong>; Do not use too much colors. Grey is one of the most important colors in the web as it helps you to draw attention to the truly important parts of your website.</li><li><strong>Dismiss automatically</strong>; I see this a lot. If you are using backdrops (black-transparent background when nav or modal is opened) then please dismiss the opened window when the user clicks on the backdrop itself. Do not force them to click on your tiny 'x'.</li><li><strong>Don't make me think</strong>; I ensure you, that visitors will leave your page as soon as they need to think. Provide simple processes, avoid too deep hierarchies, keep everything as simple as it can be.</li></ul></p><p class=lead><input type=checkbox> <strong>Does your website contain Flash elements?</strong><br>Flash is deprecated and won't be maintained by Adobe. Moreover, outdouted flash plugins can be a security risk to your users. Furthermore, Flash is quite slow and incompatible with mobile devices and non-general purpose devices such as Smart TVs etc.</p><hr><h3>3. German Livestream</h3><p class=lead>German video about evaluating a website's quality on your own. We offer professional websites analyses for just 175 € (less than 10 pages). Contact us today for a free initial consultation call via <a href=mailto:office@wavect.io title="Book a free call">office@wavect.io</a>.</p><iframe width=100% height=250vmin src=https://www.youtube-nocookie.com/embed/1uojpftvJa8 frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr></div></div><div class=row><div class=col-12><p class=lead style=margin-bottom:0>We try to give without expectations. Nevertheless, we are grateful for every like/follow if you want to support us. Thank you for reading :-)<div><script rel=preconnect defer src=https://platform.linkedin.com/in.js type=text/javascript>lang:en_US</script><script type=in/followcompany data-id=19010151 data-counter=bottom></script><div class=fb-like data-href=https://wavect.io data-width data-layout=button_count data-action=like data-size=small data-share=true></div></div></p></div></div></div></section><footer class=footer><div class=container><div class=footer__left><div class=footer__copy>© Wavect. All rights reserved.</div></div><div class=footer__links><ul class=navbar-nav><li class=nav-item><a class=nav-link href=/ title=Home>HOME</a></li><li class=nav-item><a class=nav-link href=/#about title=About>ABOUT</a></li><li class=nav-item><a class=nav-link href=/#services title=Services>SERVICES</a></li><li class=nav-item><a class=nav-link href=/#portfolio title=Portfolio>PORTFOLIO</a></li><li class=nav-item><a class=nav-link href=/blog/ title=Blog>BLOG</a></li><li class=nav-item><a class=nav-link href=/impressum title=Impressum>IMPRESSUM</a></li></ul></div><div class=footer__right><a href=/ title=Home><picture><source srcset="https://wavect.io/img/logos/webp/logo_square_white.webp 1x, https://wavect.io/img/logos/webp/logo_square_white@2x.webp 2x" type=image/webp><source srcset="https://wavect.io/img/logos/jxr/logo_square_white.jxr 1x, https://wavect.io/img/logos/jxr/logo_square_white@2x.jxr 2x" type=image/vnd.ms-photo><source srcset="https://wavect.io/img/logos/jp2/logo_square_white.jp2 1x, https://wavect.io/img/logos/jp2/logo_square_white@2x.jp2 2x" type=image/jp2><img class=hide-loading-indicator width=70 src=https://wavect.io/img/logos/bak/logo_square_white.png srcset="https://wavect.io/img/logos/bak/logo_square_white.png 1x, https://wavect.io/img/logos/bak/logo_square_white@2x.png 2x" alt="Your longterm partner for Innovative Software Solutions - Wavect" title="Your longterm partner for Innovative Software Solutions - Wavect"></picture></a></div></div></footer><script rel=preconnect src=https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js data-cfasync=false></script><script>var originalCookieStorage=JSON.parse(JSON.stringify(document.cookie));function enableCookies(){loadFbMessenger()}function deleteCookies(){}function disableCookies(){}window.cookieconsent.initialise({palette:{popup:{background:"#252e39"},button:{background:"#14a7d0"}},type:"opt-in",onInitialise:function(c){var a=this.options.type,b=this.hasConsented();a=='opt-in'&&b&&enableCookies(),a=='opt-out'&&!b&&disableCookies()},onStatusChange:function(c,d){var a=this.options.type,b=this.hasConsented();a=='opt-in'&&b&&enableCookies(),a=='opt-out'&&!b&&disableCookies()},onRevokeChoice:function(){var a=this.options.type;a=='opt-in'&&disableCookies(),a=='opt-out'&&enableCookies()}})</script><script src=https://wavect.io/js/library/radity-lib.min.js></script><script>window.addEventListener("load",function(){var a=window.lozad(".lozad",{rootMargin:window.innerHeight/2+"px 0px",threshold:.01});a.observe()})</script><script rel=preconnect src=https://code.jquery.com/jquery-3.5.1.slim.min.js integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin=anonymous></script><script rel=preconnect src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js integrity=sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV crossorigin=anonymous></script><script>(function(a){var b,e,c,f,g,d;if(a.document.documentElement.className.indexOf("fonts-loaded")>-1)return;b=new a.FontFaceObserver("Inter",{weight:300}),e=new a.FontFaceObserver("Inter",{weight:400}),c=new a.FontFaceObserver("Inter",{weight:500}),f=new a.FontFaceObserver("Inter",{weight:600}),g=new a.FontFaceObserver("Inter",{weight:700}),d=new a.FontFaceObserver("Inter",{weight:900}),a.Promise.all([b.load(),c.load(),d.load()]).then(function(){a.document.documentElement.className+=" fonts-loaded"})})(this);const scroll=new SmoothScroll('a[href*="#"]');$('a.nav-link').on('click',()=>{const a=$('.navbar-collapse');a&&a.hasClass('show')&&$('.navbar-toggler').click()})</script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+
+     
+    @import url(https://fonts.googleapis.com/css?family=Lato:700);
+    .ribbon-box {
+      position: relative;
+      padding-right: 0!important;  
+    }
+    
+     
+    .ribbon {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      position: absolute;
+    }
+    .ribbon::before,
+    .ribbon::after {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      display: block;
+      border: 5px solid #459da1;
+    }
+    .ribbon span {
+      position: absolute;
+      display: block;
+      width: 225px;
+      padding: 15px 0;
+      background-color: #459da1;
+      box-shadow: 0 5px 10px rgba(0,0,0,.1);
+      color: #fff;
+      font: 700 18px/1 'Lato', sans-serif;
+      text-shadow: 0 1px 1px rgba(0,0,0,.2);
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+     
+    .ribbon-top-left {
+      top: -10px;
+      left: -10px;
+    }
+    .ribbon-top-left::before,
+    .ribbon-top-left::after {
+      border-top-color: transparent;
+      border-left-color: transparent;
+    }
+    .ribbon-top-left::before {
+      top: 0;
+      right: 0;
+    }
+    .ribbon-top-left::after {
+      bottom: 0;
+      left: 0;
+    }
+    .ribbon-top-left span {
+      right: -25px;
+      top: 30px;
+      transform: rotate(-45deg);
+    }
+    
+     
+    .ribbon-top-right {
+      top: -10px;
+      right: -10px;
+    }
+    .ribbon-top-right::before,
+    .ribbon-top-right::after {
+      border-top-color: transparent;
+      border-right-color: transparent;
+    }
+    .ribbon-top-right::before {
+      top: 0;
+      left: 0;
+    }
+    .ribbon-top-right::after {
+      bottom: 0;
+      right: 0;
+    }
+    .ribbon-top-right span {
+      left: -25px;
+      top: 30px;
+      transform: rotate(45deg);
+    }
+    
+     
+    .ribbon-bottom-left {
+      bottom: -10px;
+      left: -10px;
+    }
+    .ribbon-bottom-left::before,
+    .ribbon-bottom-left::after {
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    .ribbon-bottom-left::before {
+      bottom: 0;
+      right: 0;
+    }
+    .ribbon-bottom-left::after {
+      top: 0;
+      left: 0;
+    }
+    .ribbon-bottom-left span {
+      right: -25px;
+      bottom: 30px;
+      transform: rotate(225deg);
+    }
+    
+     
+    .ribbon-bottom-right {
+      bottom: -10px;
+      right: -10px;
+    }
+    .ribbon-bottom-right::before,
+    .ribbon-bottom-right::after {
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+    }
+    .ribbon-bottom-right::before {
+      bottom: 0;
+      left: 0;
+    }
+    .ribbon-bottom-right::after {
+      top: 0;
+      right: 0;
+    }
+    .ribbon-bottom-right span {
+      left: -25px;
+      bottom: 30px;
+      transform: rotate(-225deg);
+    }
+</style>
+
+<script rel="preconnect" defer src="https://kit.fontawesome.com/434862e682.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="https://wavect.io/css/main.css"/>
+
+  <link rel="stylesheet" href="https://wavect.io/css/custom.css"/>
+
+
+
+
+
+
+
+
+	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+<link rel="apple-touch-icon" href="/img/logos/apple-touch-icons/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/logos/apple-touch-icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/img/logos/apple-touch-icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/img/logos/apple-touch-icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/img/logos/apple-touch-icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/img/logos/apple-touch-icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/img/logos/apple-touch-icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/img/logos/apple-touch-icons/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/img/logos/apple-touch-icons/apple-touch-icon-180x180.png" />
+
+
+<meta name="keywords" content="wavect,hightech,innovation,blockchain,artificial intelligence,ai,iot,internet-of-things,partner,freelancer,software,prototyping">
+
+<meta http-equiv="cache-control" content="public"/>
+<meta name="author" content="Kevin Riedl"/>
+<meta name="copyright" content="&copy; 2020 Wavect, Riedl Kevin"/>
+
+    
+<meta property="og:site_name" content="Wavect.io" />
+
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image:alt" content="Wavect  - Like an employee, but without the hassle"/>
+<meta property="og:type" content="website"/>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
+
+
+
+
+
+<script rel="preconnect" async src="https://www.googletagmanager.com/gtag/js?id=UA-145098098-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145098098-1');
+</script>
+
+
+
+	
+	
+	
+	<meta name="description" content="Most, even software companies don&#39;t bother themselves with creating their business homepage. No wonder, that there are a ton of web-agencies out there. But ever asked yourself, how you could possibly evaluate the quality of their work? This guide is some sort of a checklist for your own business.">
+	<meta property="og:title" content="Guide to evaluate a website&#39;s quality"/>
+	<meta property="og:description" content="Most, even software companies don&#39;t bother themselves with creating their business homepage. No wonder, that there are a ton of web-agencies out there. But ever asked yourself, how you could possibly evaluate the quality of their work? This guide is some sort of a checklist for your own business."/>
+	<meta property="og:url" content="https://wavect.io/blog/guide-to-evaluate-the-quality-of-websites/"/>
+	<meta property="og:image" content="map[bak:map[x:/img/blog/headers/bak/blog_header_website-quality.jpg] jp2:map[x:/img/blog/headers/jp2/blog_header_website-quality.jp2] jxr:map[x:/img/blog/headers/jxr/blog_header_website-quality.jxr] webp:map[x:/img/blog/headers/webp/blog_header_website-quality.webp]]"/>
+
+	<title>Guide to evaluate a website&#39;s quality: Your Long-Term partner for innovative software. | Wavect</title>
+
+	<link rel="canonical" href="https://wavect.io/blog/guide-to-evaluate-the-quality-of-websites/"/>
+
+</head>
+
+<body>
+	
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+	
+	
+
+	
+	
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  xfbml            : true,
+		  version          : 'v8.0'
+		});
+	  };
+
+	  window.loadFbMessenger = function() {
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	}
+</script>
+
+	
+	<div class="fb-customerchat"
+		id="fb-chatplugin"
+	  attribution=setup_tool
+	  page_id="243867366515546"
+		theme_color="#76b9c3">
+	</div>
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="https://wavect.io" title="Home">
+        <picture>
+          <source srcset="https://wavect.io/img/logos/webp/logo_combination.webp 1x" type="image/webp">
+          <source srcset="https://wavect.io/img/logos/jxr/logo_combination.jxr 1x" type="image/vnd.ms-photo">
+          <source srcset="https://wavect.io/img/logos/jp2/logo_combination.jp2 1x" type="image/jp2">
+            
+          <img
+            class="img-responsive"
+            src="https://wavect.io/img/logos/bak/logo_combination.png"
+            srcset="https://wavect.io/img/logos/bak/logo_combination.png 1x" 
+            alt="Wavect Logo" title="Wavect Logo"/>
+        </picture>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://wavect.io" title="Home">HOME</a>
+          </li>
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/#services" title="Services">SERVICES
+                
+                  &nbsp;<i class="fas fa-caret-down"></i>
+                
+              </a>
+              
+                <ul class="dropdown-nav">
+                  
+                  <li class="nav-item dropdown-nav-item">
+                    <a href="/pricing" data-scroll class="dropdown-nav-link">
+                       <i class="fas fa-chevron-right"></i>&nbsp;PRICING
+                    </a>
+                  </li>
+                  
+                </ul>
+              
+          </li>
+          
+          
+            
+              <li class="nav-item only-on-mobile">
+                  <a data-scroll class="nav-link" href="/pricing" title="Pricing">PRICING</a>
+                </li>
+            
+        
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/#about" title="About">ABOUT
+                
+              </a>
+              
+          </li>
+          
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/#portfolio" title="Portfolio">PORTFOLIO
+                
+              </a>
+              
+          </li>
+          
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/blog" title="Blog">BLOG
+                
+              </a>
+              
+          </li>
+          
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="https://token.wavect.io" title="Wavect-Token">WAVECT-TOKEN
+                
+              </a>
+              
+          </li>
+          
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+
+<section id="blog" class="section section--border-bottom">
+    <div class="container">
+        <picture>
+            <source srcset="https://wavect.io/img/blog/headers/webp/blog_header_website-quality.webp 1x" type="image/webp">
+            <source srcset="https://wavect.io/img/blog/headers/jxr/blog_header_website-quality.jxr 1x" type="image/vnd.ms-photo">
+            <source srcset="https://wavect.io/img/blog/headers/jp2/blog_header_website-quality.jp2 1x" type="image/jp2">
+              
+            <img
+              class="card-img-top"
+              style="max-height:200px;object-fit:cover;margin-bottom:1em;"
+              src="https://wavect.io/img/blog/headers/bak/blog_header_website-quality.jpg"
+              srcset="https://wavect.io/img/blog/headers/bak/blog_header_website-quality.jpg 1x" 
+              alt="Guide to evaluate a website&#39;s quality" title="Guide to evaluate a website&#39;s quality"/>
+          </picture>
+        <div style="float:right;">   
+            <img src="https://img.shields.io/static/v1?label=Published+on&message=28.12.2020&color=blue" />
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwavect.io%2Fblog%2Fguide-to-evaluate-the-quality-of-websites%2F&count_bg=%235DD0E4&title_bg=%23555555&icon=pagekit.svg&icon_color=%23E7E7E7&title=Read+today+%2F+all-time&edge_flat=false"/>
+        </div>
+        <h2 style="clear:both;margin-top:1em;">
+            Guide to evaluate a website&#39;s quality
+        </h2>
+        <p class="lead">
+            Most, even software companies don&#39;t bother themselves with creating their business homepage. No wonder, that there are a ton of web-agencies out there. But ever asked yourself, how you could possibly evaluate the quality of their work? This guide is some sort of a checklist for your own business.
+        </p>
+        
+        <div class="row">
+            <div class="col-12">
+                <h3>1. What most web agencies won't tell you</h3> <p class="lead">Just imagine yourself buying whisky in the supermarket. Wouldn't you at least try to check the quality of it? I think you would, because you are about to pay for it. In my experience however, many companies don't check the website they've paid for, because they either don't know how or are not aware that a website should have more than just a shiny design.</p> <p class="lead">Let's get back to the whisky example. You can't try the whisky before buying it (at least in most stores), which makes it necessary to evaluate its quality beforehand based on other aspects such as the manufacturers trademark, the price, packaging, online recommendations, color, age, country of origin, odour, etc. Thus, a nice packaging makes the whisky certainly more attractive for buyers, but it won't be a bestseller in the long run if the quality of the actual product doesn't meet the buyers' expectations.</p> <p class="lead">The same basically applies to websites. You just don't know how your website is perceived by exactly that audience you want to address which are most of the time people who don't know much about your company (potential applicants/customers,..). Thefore, a good web-design is necessary and helps to attract more visitors to your site, but they will close the browser tab faster than you can imagine if you don't provide interesting and well-elaborated content on your website. Moreover, how are potential customers or applicants supposed to find your online-presence, if your website is not optimized for search-engines (= SEO, Search-Engine-Optimization)? In general, good web agencies do most of the things listed here without being asked to do so. That being said, I've added a short checklist below to get you started. </p> <hr /> <h3>2. What to check?</h3> <p class="lead">Please note that this list is just to get you started and shouldn't be considered an exhaustive list. Moreover, many of the points below are related to each other but I considered them important enough to give them an own checkbox.</p> <p class="lead"><input type="checkbox"/> <strong>Is your website responsive?</strong><br /> In a mobile world a website needs to be usable, fast and clear on a variety of devices such as smartphones, desktop devices and don't forget about tablets. This also means to hide, move or collapse several elements on your site. Please note, that a bad responsiveness can also have a negative impact on your visibility on several search-engines such as Google.</p> <p class="lead"><input type="checkbox"/> <strong>Check your SEO rating</strong><br />SEO stands for Search-Engine-Optimization and is one of the most important aspects when creating new websites as it greatly improves the probability to appear on top of e.g. Google's search results. Interestingly, it is also one of the most neglected points. There are free tools out there, which do some simple SEO checks for you (which is enough in most cases), such as <a href="https://www.seobility.net/en/seocheck/" target="_blank" title="Seobility">Seobility</a> and <a href="https://seorch.de/" target="_blank" title="Seorch">Seorch</a>.</p> <p class="lead"><input type="checkbox"/> <strong>Too much animations</strong><br />I love animations too, at least as a developer. Having too much animations (e.g. falling snowflakes all over the page, custom mouse cursors, GIFs, blinking or other noisy animations) will confuse your visitors without any doubt. Don't get me wrong here, some smooth animations such as transitory effects are fine and improve the overall user experience, but know your metes and bounds. <p class="lead"><input type="checkbox"/> <strong>Non-optimized media</strong><br />Media like images, videos and even sound-files can be huge. Which is not necessarily a problem on your machine, will occupy your visitors' bandwidth or even mitigate user experience. As most websites display a lot of images, you should check how much time it takes your browser to download them (take a look into the <a href="https://developers.google.com/web/tools/chrome-devtools/network" target="_blank" title="Chrome Developer Tools - Network tab tutorial">network tab</a> of your browser developer tools). Every image can be minimized. First of all, check where your images are being used and if the size of the original image matches. In most cases your original images are way too big considering where they are used; e.g. company logo is 4098x4098px on your server, but displayed on your website as 500x500px at maximum (e.g. desktop device). You can resize your images without degrading the quality on <a href="https://picresize.com/" target="_blank" title="Resize images online">Picresize</a>. Additionally, you should optimize the quality of your images itself (e.g. amount of colors used, pixel density, ..). In my experience <a href="https://imagecompressor.com/" title="Compress images online" target="_blank">Image-Compressor</a> does a great job while retaining a great image-quality.</p> <p class="lead"><input type="checkbox"/> <strong>Spelling</strong><br />I hope you don't find too many grammatical or spelling errors on our website, because they can drastically decrease user-experience and have the potential to make you look less professional.</p> <p class="lead"><input type="checkbox"/> <strong>Do you want a Website or Web-Application?</strong><br />No, this is not the same. A website's general purpose is to provide information, while web applications aim to be highly dynamic when interacting with users. So-called Single-Page-Applications (SPAs) such as web-apps made with Angular or React are great for building complex frond-end applications, but they have one very big disadvantage, they are poorly crawled by search-engine robots which may decrease the probability to appear in search results on Google & Co. Nevertheless, most of these frameworks/libraries offer serverside-rendering opposed to the default clientside-rendering of your website. Additionally, there are even frameworks which can be used in conjunction to these technologies, e.g. NextJS (React framework for building server-side or statically rendered web-apps). Therefore, you should check if your website is rendered in a for search-engine robots readable format (although some of them claim to be able to render JavaScript, I assure you they don't read your SPA as you would expect them to).</p> <p class="lead"><input type="checkbox"/> <strong>Avoid Autoplay</strong><br />I think most people already know this, but I think this list wouldn't be complete without it. Do not autoplay videos or sounds on your website except the main purpose of that (sub-)page is to play that media. Moreover, even autoplaying videos without sound (e.g. as background video) can be considered a bad practice as this can drastically increase page-load times and eat up the visitors' bandwidth (esp. problematic on mobile devices).</p> <p class="lead"><input type="checkbox"/> <strong>General Usability</strong><br />Do not underestimate the power of usability. Most web-agencies don't have usability experts that's why you might encounter several issues related to this point. Just some basic examples to get you started. <ul> <li><strong>Too much choices</strong>; Keep it simple and remove unnecessary buttons, options etc.</li> <li><strong>Don't try to be different</strong>; Position common objects (e.g. logos, navigation, breadcrumbs, ..) where a user expects them to be.</li> <li><strong>Colors are expensive</strong>; Do not use too much colors. Grey is one of the most important colors in the web as it helps you to draw attention to the truly important parts of your website.</li> <li><strong>Dismiss automatically</strong>; I see this a lot. If you are using backdrops (black-transparent background when nav or modal is opened) then please dismiss the opened window when the user clicks on the backdrop itself. Do not force them to click on your tiny 'x'.</li> <li><strong>Don't make me think</strong>; I ensure you, that visitors will leave your page as soon as they need to think. Provide simple processes, avoid too deep hierarchies, keep everything as simple as it can be.</li> </ul> </p> <p class="lead"><input type="checkbox"/> <strong>Does your website contain Flash elements?</strong><br /> Flash is deprecated and won't be maintained by Adobe. Moreover, outdouted flash plugins can be a security risk to your users. Furthermore, Flash is quite slow and incompatible with mobile devices and non-general purpose devices such as Smart TVs etc.</p> <hr /> <h3>3. German Livestream</h3> <p class="lead">German video about evaluating a website's quality on your own. We offer professional websites analyses for just 175 € (less than 10 pages). Contact us today for a free initial consultation call via <a href="mailto:office@wavect.io" title="Book a free call">office@wavect.io</a>.</p> <iframe width="100%" height="250vmin" src="https://www.youtube-nocookie.com/embed/1uojpftvJa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+    <div class="col-12">
+        <p class="lead" style="margin-bottom:0;">
+            We try to give without expectations. Nevertheless, we are grateful for every like/follow if you want to support us. Thank you for reading :-)
+            <div>
+                
+                <script rel="preconnect" defer src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                <script type="IN/FollowCompany" data-id="19010151" data-counter="bottom"></script>
+
+                
+                <div class="fb-like" data-href="https://wavect.io" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+            </div>
+        </p>
+    </div>
+</div>
+        
+    </div>
+  </section>
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Wavect. All rights reserved.
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/" title="Home">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" title="About">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#services" title="Services">SERVICES</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#portfolio" title="Portfolio">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/" title="Blog">BLOG</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/impressum" title="Impressum">IMPRESSUM</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="footer__right">
+      <a href="/" title="Home">
+        <picture>
+          <source srcset="https://wavect.io/img/logos/webp/logo_square_white.webp 1x, https://wavect.io/img/logos/webp/logo_square_white@2x.webp 2x" type="image/webp">
+          <source srcset="https://wavect.io/img/logos/jxr/logo_square_white.jxr 1x, https://wavect.io/img/logos/jxr/logo_square_white@2x.jxr 2x" type="image/vnd.ms-photo">
+          <source srcset="https://wavect.io/img/logos/jp2/logo_square_white.jp2 1x, https://wavect.io/img/logos/jp2/logo_square_white@2x.jp2 2x" type="image/jp2">
+            
+          <img
+            class='hide-loading-indicator'
+            width="70"
+            src="https://wavect.io/img/logos/bak/logo_square_white.png"
+            srcset="https://wavect.io/img/logos/bak/logo_square_white.png 1x, https://wavect.io/img/logos/bak/logo_square_white@2x.png 2x" 
+            alt="Your longterm partner for Innovative Software Solutions - Wavect" title="Your longterm partner for Innovative Software Solutions - Wavect"/>
+        </picture>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+	
+
+<script rel="preconnect" src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+	
+	var originalCookieStorage = JSON.parse(JSON.stringify(document.cookie));
+
+	function enableCookies() {
+		loadFbMessenger();
+		
+
+	}
+
+	function deleteCookies() {
+	
+
+		
+
+
+		
+
+			
+	}
+
+	function disableCookies() {
+		
+
+		
+
+		
+	}
+
+
+
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39"
+    },
+    "button": {
+      "background": "#14a7d0"
+    }
+  },
+  "type": "opt-in",
+  onInitialise: function (status) {
+		var type = this.options.type;
+		var didConsent = this.hasConsented();
+		if (type == 'opt-in' && didConsent) {
+			
+			enableCookies();
+		}
+		if (type == 'opt-out' && !didConsent) {
+			
+			disableCookies();
+		}
+    },
+    onStatusChange: function(status, chosenBefore) {
+		var type = this.options.type;
+		var didConsent = this.hasConsented();
+		if (type == 'opt-in' && didConsent) {
+			
+			enableCookies();
+		}
+		if (type == 'opt-out' && !didConsent) {
+			
+			disableCookies();
+		}
+    },
+    onRevokeChoice: function() {
+		var type = this.options.type;
+		if (type == 'opt-in') {
+			
+			disableCookies();
+		}
+		if (type == 'opt-out') {
+			
+			enableCookies();
+		}
+    }
+});
+</script>
+
+<script src='https://wavect.io/js/library/radity-lib.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script rel="preconnect" src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script rel="preconnect" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+
+
+ 
+
+  const scroll = new SmoothScroll('a[href*="#"]');
+  $('a.nav-link').on('click', () => {
+    const navbar = $('.navbar-collapse');
+    if (navbar && navbar.hasClass('show')) {
+      $('.navbar-toggler').click();
+    }
+  })
+</script>
+
+
+</body>
+
+</html>
+

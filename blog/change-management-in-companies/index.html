@@ -1,5 +1,799 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="ie=edge"><style>.rad-fade-in{will-change:opacity,transform;animation-name:rad-fade-in-fallback;animation-duration:5s;animation-fill-mode:both}@keyframes rad-fade-in-fallback{0%{opacity:0}75%{opacity:0}100%{opacity:1}}.fonts-loaded .rad-fade-in.rad-waiting{animation-name:none;opacity:0}.fonts-loaded .rad-fade-in.rad-animate{animation-name:rad-fade-in;animation-duration:1.1s;animation-fill-mode:both}@keyframes rad-fade-in{0%{opacity:0}100%{opacity:1}}.rad-fade-in-long{will-change:opacity,transform;animation-name:rad-fade-in-long-fallback;animation-duration:8s;animation-fill-mode:both}@keyframes rad-fade-in-long-fallback{0%{opacity:0}75%{opacity:0}100%{opacity:1}}.fonts-loaded .rad-fade-in-long.rad-waiting{animation-name:none;opacity:0}.fonts-loaded .rad-fade-in-long.rad-animate{animation-name:rad-fade-in-long;animation-duration:2s;animation-fill-mode:both}@keyframes rad-fade-in-long{0%{opacity:0}20%{opacity:0}100%{opacity:1}}.rad-fade-down{will-change:opacity,transform;animation-name:rad-fade-down-fallback;animation-duration:5s;animation-fill-mode:both;transform:translateY(-30px)}@keyframes rad-fade-down-fallback{0%{opacity:0;transform:translateY(-30px)}75%{opacity:0;transform:translateY(-30px)}100%{opacity:1;transform:translateY(0)}}.fonts-loaded .rad-fade-down.rad-waiting{animation-name:none;opacity:0;transform:translateY(-30px)}.fonts-loaded .rad-fade-down.rad-animate{animation-name:rad-fade-down;animation-duration:1.1s}@keyframes rad-fade-down{0%{opacity:0;transform:translateY(-30px)}100%{opacity:1;transform:translateY(0)}}.rad-scale-down{will-change:opacity,transform;animation-name:rad-scale-down-fallback;animation-duration:5s;animation-fill-mode:both;transform-origin:50% 0}@keyframes rad-scale-down-fallback{0%{opacity:0;transform:scaleY(.95)}75%{opacity:0;transform:scaleY(.95)}100%{opacity:1;transform:scaleY(1)}}.fonts-loaded .rad-scale-down.rad-waiting{animation-name:none;opacity:0;transform:scaleY(.95)}.fonts-loaded .rad-scale-down.rad-animate{animation-name:rad-scale-down;animation-duration:1.1s;animation-fill-mode:both}@keyframes rad-scale-down{0%{opacity:0;transform:scaleY(.95)}100%{opacity:1;transform:scaleY(1)}}@import "https://fonts.googleapis.com/css?family=Lato:700";.ribbon-box{position:relative;padding-right:0!important}.ribbon{width:150px;height:150px;overflow:hidden;position:absolute}.ribbon::before,.ribbon::after{position:absolute;z-index:-1;content:'';display:block;border:5px solid #459da1}.ribbon span{position:absolute;display:block;width:225px;padding:15px 0;background-color:#459da1;box-shadow:0 5px 10px rgba(0,0,0,.1);color:#fff;font:700 18px/1 lato,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.2);text-transform:uppercase;text-align:center}.ribbon-top-left{top:-10px;left:-10px}.ribbon-top-left::before,.ribbon-top-left::after{border-top-color:transparent;border-left-color:transparent}.ribbon-top-left::before{top:0;right:0}.ribbon-top-left::after{bottom:0;left:0}.ribbon-top-left span{right:-25px;top:30px;transform:rotate(-45deg)}.ribbon-top-right{top:-10px;right:-10px}.ribbon-top-right::before,.ribbon-top-right::after{border-top-color:transparent;border-right-color:transparent}.ribbon-top-right::before{top:0;left:0}.ribbon-top-right::after{bottom:0;right:0}.ribbon-top-right span{left:-25px;top:30px;transform:rotate(45deg)}.ribbon-bottom-left{bottom:-10px;left:-10px}.ribbon-bottom-left::before,.ribbon-bottom-left::after{border-bottom-color:transparent;border-left-color:transparent}.ribbon-bottom-left::before{bottom:0;right:0}.ribbon-bottom-left::after{top:0;left:0}.ribbon-bottom-left span{right:-25px;bottom:30px;transform:rotate(225deg)}.ribbon-bottom-right{bottom:-10px;right:-10px}.ribbon-bottom-right::before,.ribbon-bottom-right::after{border-bottom-color:transparent;border-right-color:transparent}.ribbon-bottom-right::before{bottom:0;left:0}.ribbon-bottom-right::after{top:0;right:0}.ribbon-bottom-right span{left:-25px;bottom:30px;transform:rotate(-225deg)}</style><script rel=preconnect defer src=https://kit.fontawesome.com/434862e682.js crossorigin=anonymous></script><link rel=stylesheet href=https://wavect.io/css/main.css><link rel=stylesheet href=https://wavect.io/css/custom.css><link rel="shortcut icon" type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon href=/img/logos/apple-touch-icons/apple-touch-icon.png><link rel=apple-touch-icon sizes=57x57 href=/img/logos/apple-touch-icons/apple-touch-icon-57x57.png><link rel=apple-touch-icon sizes=72x72 href=/img/logos/apple-touch-icons/apple-touch-icon-72x72.png><link rel=apple-touch-icon sizes=76x76 href=/img/logos/apple-touch-icons/apple-touch-icon-76x76.png><link rel=apple-touch-icon sizes=114x114 href=/img/logos/apple-touch-icons/apple-touch-icon-114x114.png><link rel=apple-touch-icon sizes=120x120 href=/img/logos/apple-touch-icons/apple-touch-icon-120x120.png><link rel=apple-touch-icon sizes=144x144 href=/img/logos/apple-touch-icons/apple-touch-icon-144x144.png><link rel=apple-touch-icon sizes=152x152 href=/img/logos/apple-touch-icons/apple-touch-icon-152x152.png><link rel=apple-touch-icon sizes=180x180 href=/img/logos/apple-touch-icons/apple-touch-icon-180x180.png><meta name=keywords content="wavect,hightech,innovation,blockchain,artificial intelligence,ai,iot,internet-of-things,partner,freelancer,software,prototyping"><meta http-equiv=cache-control content="public"><meta name=author content="Kevin Riedl"><meta name=copyright content="&copy; 2020 Wavect, Riedl Kevin"><meta property="og:site_name" content="Wavect.io"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Wavect  - Like an employee, but without the hassle"><meta property="og:type" content="website"><link rel=stylesheet type=text/css href=https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css><script rel=preconnect async src="https://www.googletagmanager.com/gtag/js?id=UA-145098098-1"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','UA-145098098-1')</script><meta name=description content="Innovation is great and the rate of technological achievements accelerates. But what is great for humanity, can actually be quite a huge challenge for your organization and employees."><meta property="og:title" content="Change Management - How does your organization handle change?"><meta property="og:description" content="Innovation is great and the rate of technological achievements accelerates. But what is great for humanity, can actually be quite a huge challenge for your organization and employees."><meta property="og:url" content="https://wavect.io/blog/change-management-in-companies/"><meta property="og:image" content="map[bak:map[x:/img/blog/headers/bak/blog_change-management-companies.jpg] jp2:map[x:/img/blog/headers/jp2/blog_change-management-companies.jp2] jxr:map[x:/img/blog/headers/jxr/blog_change-management-companies.jxr] webp:map[x:/img/blog/headers/webp/blog_change-management-companies.webp]]"><title>Change Management - How does your organization handle change?: Your Long-Term partner for innovative software. | Wavect</title><link rel=canonical href=https://wavect.io/blog/change-management-in-companies/></head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript><div id=fb-root></div><script>window.fbAsyncInit=function(){FB.init({xfbml:!0,version:'v8.0'})},window.loadFbMessenger=function(){(function(b,c,d){var a,e=b.getElementsByTagName(c)[0];if(b.getElementById(d))return;a=b.createElement(c),a.id=d,a.src='https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js',e.parentNode.insertBefore(a,e)})(document,'script','facebook-jssdk')}</script><div class=fb-customerchat id=fb-chatplugin attribution=setup_tool page_id=243867366515546 theme_color=#76b9c3></div><header class="header fixed-top rad-animation-group" id=header><div class="container rad-fade-in"><nav class="navbar navbar-expand-lg navbar-light p-0"><a class=navbar-brand href=https://wavect.io title=Home><picture><source srcset="https://wavect.io/img/logos/webp/logo_combination.webp 1x" type=image/webp><source srcset="https://wavect.io/img/logos/jxr/logo_combination.jxr 1x" type=image/vnd.ms-photo><source srcset="https://wavect.io/img/logos/jp2/logo_combination.jp2 1x" type=image/jp2><img class=img-responsive src=https://wavect.io/img/logos/bak/logo_combination.png srcset="https://wavect.io/img/logos/bak/logo_combination.png 1x" alt="Wavect Logo" title="Wavect Logo"></picture></a>
-<button class=navbar-toggler type=button data-toggle=collapse data-target="#navbarSupportedContent, #header" aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class="navbar-nav ml-lg-auto"><li class=nav-item><a class=nav-link href=https://wavect.io title=Home>HOME</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/#services title=Services>SERVICES
-&nbsp;<i class="fas fa-caret-down"></i></a><ul class=dropdown-nav><li class="nav-item dropdown-nav-item"><a href=/pricing data-scroll class=dropdown-nav-link><i class="fas fa-chevron-right"></i>&nbsp;PRICING</a></li></ul></li><li class="nav-item only-on-mobile"><a data-scroll class=nav-link href=/pricing title=Pricing>PRICING</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/#about title=About>ABOUT</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/#portfolio title=Portfolio>PORTFOLIO</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=/blog title=Blog>BLOG</a></li><li class="nav-item with-submenu"><a data-scroll class=nav-link href=https://token.wavect.io title=Wavect-Token>WAVECT-TOKEN</a></li></ul></div></nav></div></header><section id=blog class="section section--border-bottom"><div class=container><picture><source srcset="https://wavect.io/img/blog/headers/webp/blog_change-management-companies.webp 1x" type=image/webp><source srcset="https://wavect.io/img/blog/headers/jxr/blog_change-management-companies.jxr 1x" type=image/vnd.ms-photo><source srcset="https://wavect.io/img/blog/headers/jp2/blog_change-management-companies.jp2 1x" type=image/jp2><img class=card-img-top style=max-height:200px;object-fit:cover;margin-bottom:1em src=https://wavect.io/img/blog/headers/bak/blog_change-management-companies.jpg srcset="https://wavect.io/img/blog/headers/bak/blog_change-management-companies.jpg 1x" alt="Change Management - How does your organization handle change?" title="Change Management - How does your organization handle change?"></picture><div style=float:right><img src="https://img.shields.io/static/v1?label=Published+on&message=19.01.2021&color=blue">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwavect.io%2Fblog%2Fchange-management-in-companies%2F&count_bg=%235DD0E4&title_bg=%23555555&icon=pagekit.svg&icon_color=%23E7E7E7&title=Read+today+%2F+all-time&edge_flat=false"></div><h2 style=clear:both;margin-top:1em>Change Management - How does your organization handle change?</h2><p class=lead>Innovation is great and the rate of technological achievements accelerates. But what is great for humanity, can actually be quite a huge challenge for your organization and employees.</p><div class=row><div class=col-12><h3>1. Short introduction to Change Management</h3><p class=lead>The world wide web changed everything, I think we all know that. And despite that the internet has been around for a while, many companies still seem to struggle to digitalize their business processes (and no I'm not talking about simply using Microsoft Office here). But that's not the actual problem. Many organizations (especially those which exist longer than the average company) tend not to be able to keep up with the <strong>rapid technological advancements</strong>.</p><p class=lead>That's why some larger organizations devote some specific resources to change management to ensure that they don't miss out on important trend shifts. As innovation accelerates, the changes within an organization need to be well-controlled, managed and <strong>well-communicated to employees</strong>. Therefore, communication could be considered the key to successful change management as employees tend to reject changes.</p><hr><h3>2. How to keep up with innovation?</h3><p class=lead>Humanity get's more efficient day by day and every organization needs to find a way to avoid falling by the wayside. So, how could we do this? Just to clarify my point here; the more resources you have the easier it is to keep up with technological accomplishments but usually the <strong>more complex change management will become</strong>.</p><p class=lead>Therefore, if you have enough resources, you could simply establish a new department in your organization. On the other hand, newer companies tend to already leverage modern technologies. And who is left? <strong>Small companies and medium-scale enterprises</strong>. So, let's see what they could do without spending resources they don't have.</p><h4>2.1. Simply do your research</h4><p class=lead>The easiest solution one could think of is doing some research. Be it by evaluating which companies tend to grow faster than others (e.g. AR/VR, blockchain, internet-of-things,...) or analyzing what your direct and indirect competitors have in the pipeline. Even if you don't trade or invest in other companies, you will certainly find it helpful to see how <strong>quoted organizations perform across different sectors</strong> which might allow you to conclude upcoming advancements or trends. Some dominant examples are hydrogen, electric-vehicles, cannabis or blockchain.</p><h4>2.2. Analyze your own processes</h4><p class=lead>There is a good chance that your company has many processes which are either <strong>obsolete or inefficient</strong>. Thus, analyzing where you or your employees could possibly save time / resources can be a short-term win as well as a good indicator for future or existing trends. Moreover, this analysis could lead you to new business models and increase employee satisfaction as they usually have to compensate ineffective processes.</p><h4>2.3. Talk to your employees</h4><p class=lead>What do your employees think (if you have some)? I'm sure they'll tell you all sorts of things where they think they could save a lot of time, what kinds of technologies you could introduce to make things more effective and what sorts of different problems occur in daily business. Many companies have some sort of feedback mechanisms (e.g. weekly meetings, open-door policies, feedback whiteboards, ...) but on much of this <strong>feedback is never acted on</strong> although being truly appreciated by leaders for the time being.</p><hr><h3>3. How to do change management?</h3><p class=lead>First of all, I can recommend you the book <a href=https://change-mich-am-arsch.com/ title="Change mich am Arsch - Prof. Axel Koch" target=_blank>"Change mich am Arsch" by Prof. Axel Koch</a> which is a German bestseller in this category. The book is actually not about how you should manage change, but rather how you shouldn't do it from an employee's perspective. By the way, we are not paid for the recommendation, so it's authentic.</p><h4>3.1. Don't neglect your employees</h4><p class=lead>When you consider huge changes within your organizations you should always start by talking to your employees. The reason for this is actually quite simple; your employees decide whether your <strong>changes work or if they are rejected</strong> at a certain point (either by leaving the company, doing it some other way or by not doing it sufficiently).</p><h4>3.2. Are the pain points worth the risk?</h4><p class=lead>Changes involve all sorts of risks. As a consequence you should always evaluate whether the <strong>pain point</strong> causing your desire to adapt or change is actually large enough. If not then you might be better off not making your employees uncomfortable by applying a perhaps unnecessary improvement.</p><h4>3.3. Have a back-up plan</h4><p class=lead>Introducing new processes or technologies can lead to <strong>unpredicted problems</strong> which might not be solveable over night. Thus, having a back up plan by e.g. having the old infrastructure / processes in place could save you a lot of headache.</p><hr><h3>4. Trends in Business & Tech</h3><h4>..with Carlos Sentís (CEO of WIA)</h4><p class=lead>You'll find an interesting interview related to this topic below. First of all, thank you Carlos for having us! It's an honor to work with you and we should have more inspring souls like yours. <a title="Linkedin - Carlos Sentís" target=_blank href=https://www.linkedin.com/in/carlossentis/>Carlos Sentís</a> is CEO of the <a href=https://wia.world title="WIA - World Impact/Innovation Alliance" target=_blank>World Innovation Alliance</a>, appeared over 1.5k times in media, adviser, lecturer and has a broad network with over 130 countries.</p><iframe width=100% height=250vmin src=https://www.youtube.com/embed/Pyv19F9g62Y frameborder=0 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr></div></div><div class=row><div class=col-12><p class=lead style=margin-bottom:0>We try to give without expectations. Nevertheless, we are grateful for every like/follow if you want to support us. Thank you for reading :-)<div><script rel=preconnect defer src=https://platform.linkedin.com/in.js type=text/javascript>lang:en_US</script><script type=in/followcompany data-id=19010151 data-counter=bottom></script><div class=fb-like data-href=https://wavect.io data-width data-layout=button_count data-action=like data-size=small data-share=true></div></div></p></div></div></div></section><footer class=footer><div class=container><div class=footer__left><div class=footer__copy>© Wavect. All rights reserved.</div></div><div class=footer__links><ul class=navbar-nav><li class=nav-item><a class=nav-link href=/ title=Home>HOME</a></li><li class=nav-item><a class=nav-link href=/#about title=About>ABOUT</a></li><li class=nav-item><a class=nav-link href=/#services title=Services>SERVICES</a></li><li class=nav-item><a class=nav-link href=/#portfolio title=Portfolio>PORTFOLIO</a></li><li class=nav-item><a class=nav-link href=/blog/ title=Blog>BLOG</a></li><li class=nav-item><a class=nav-link href=/impressum title=Impressum>IMPRESSUM</a></li></ul></div><div class=footer__right><a href=/ title=Home><picture><source srcset="https://wavect.io/img/logos/webp/logo_square_white.webp 1x, https://wavect.io/img/logos/webp/logo_square_white@2x.webp 2x" type=image/webp><source srcset="https://wavect.io/img/logos/jxr/logo_square_white.jxr 1x, https://wavect.io/img/logos/jxr/logo_square_white@2x.jxr 2x" type=image/vnd.ms-photo><source srcset="https://wavect.io/img/logos/jp2/logo_square_white.jp2 1x, https://wavect.io/img/logos/jp2/logo_square_white@2x.jp2 2x" type=image/jp2><img class=hide-loading-indicator width=70 src=https://wavect.io/img/logos/bak/logo_square_white.png srcset="https://wavect.io/img/logos/bak/logo_square_white.png 1x, https://wavect.io/img/logos/bak/logo_square_white@2x.png 2x" alt="Your longterm partner for Innovative Software Solutions - Wavect" title="Your longterm partner for Innovative Software Solutions - Wavect"></picture></a></div></div></footer><script rel=preconnect src=https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js data-cfasync=false></script><script>var originalCookieStorage=JSON.parse(JSON.stringify(document.cookie));function enableCookies(){loadFbMessenger()}function deleteCookies(){}function disableCookies(){}window.cookieconsent.initialise({palette:{popup:{background:"#252e39"},button:{background:"#14a7d0"}},type:"opt-in",onInitialise:function(c){var a=this.options.type,b=this.hasConsented();a=='opt-in'&&b&&enableCookies(),a=='opt-out'&&!b&&disableCookies()},onStatusChange:function(c,d){var a=this.options.type,b=this.hasConsented();a=='opt-in'&&b&&enableCookies(),a=='opt-out'&&!b&&disableCookies()},onRevokeChoice:function(){var a=this.options.type;a=='opt-in'&&disableCookies(),a=='opt-out'&&enableCookies()}})</script><script src=https://wavect.io/js/library/radity-lib.min.js></script><script>window.addEventListener("load",function(){var a=window.lozad(".lozad",{rootMargin:window.innerHeight/2+"px 0px",threshold:.01});a.observe()})</script><script rel=preconnect src=https://code.jquery.com/jquery-3.5.1.slim.min.js integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin=anonymous></script><script rel=preconnect src=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js integrity=sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV crossorigin=anonymous></script><script>(function(a){var b,e,c,f,g,d;if(a.document.documentElement.className.indexOf("fonts-loaded")>-1)return;b=new a.FontFaceObserver("Inter",{weight:300}),e=new a.FontFaceObserver("Inter",{weight:400}),c=new a.FontFaceObserver("Inter",{weight:500}),f=new a.FontFaceObserver("Inter",{weight:600}),g=new a.FontFaceObserver("Inter",{weight:700}),d=new a.FontFaceObserver("Inter",{weight:900}),a.Promise.all([b.load(),c.load(),d.load()]).then(function(){a.document.documentElement.className+=" fonts-loaded"})})(this);const scroll=new SmoothScroll('a[href*="#"]');$('a.nav-link').on('click',()=>{const a=$('.navbar-collapse');a&&a.hasClass('show')&&$('.navbar-toggler').click()})</script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+
+     
+    @import url(https://fonts.googleapis.com/css?family=Lato:700);
+    .ribbon-box {
+      position: relative;
+      padding-right: 0!important;  
+    }
+    
+     
+    .ribbon {
+      width: 150px;
+      height: 150px;
+      overflow: hidden;
+      position: absolute;
+    }
+    .ribbon::before,
+    .ribbon::after {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      display: block;
+      border: 5px solid #459da1;
+    }
+    .ribbon span {
+      position: absolute;
+      display: block;
+      width: 225px;
+      padding: 15px 0;
+      background-color: #459da1;
+      box-shadow: 0 5px 10px rgba(0,0,0,.1);
+      color: #fff;
+      font: 700 18px/1 'Lato', sans-serif;
+      text-shadow: 0 1px 1px rgba(0,0,0,.2);
+      text-transform: uppercase;
+      text-align: center;
+    }
+    
+     
+    .ribbon-top-left {
+      top: -10px;
+      left: -10px;
+    }
+    .ribbon-top-left::before,
+    .ribbon-top-left::after {
+      border-top-color: transparent;
+      border-left-color: transparent;
+    }
+    .ribbon-top-left::before {
+      top: 0;
+      right: 0;
+    }
+    .ribbon-top-left::after {
+      bottom: 0;
+      left: 0;
+    }
+    .ribbon-top-left span {
+      right: -25px;
+      top: 30px;
+      transform: rotate(-45deg);
+    }
+    
+     
+    .ribbon-top-right {
+      top: -10px;
+      right: -10px;
+    }
+    .ribbon-top-right::before,
+    .ribbon-top-right::after {
+      border-top-color: transparent;
+      border-right-color: transparent;
+    }
+    .ribbon-top-right::before {
+      top: 0;
+      left: 0;
+    }
+    .ribbon-top-right::after {
+      bottom: 0;
+      right: 0;
+    }
+    .ribbon-top-right span {
+      left: -25px;
+      top: 30px;
+      transform: rotate(45deg);
+    }
+    
+     
+    .ribbon-bottom-left {
+      bottom: -10px;
+      left: -10px;
+    }
+    .ribbon-bottom-left::before,
+    .ribbon-bottom-left::after {
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+    .ribbon-bottom-left::before {
+      bottom: 0;
+      right: 0;
+    }
+    .ribbon-bottom-left::after {
+      top: 0;
+      left: 0;
+    }
+    .ribbon-bottom-left span {
+      right: -25px;
+      bottom: 30px;
+      transform: rotate(225deg);
+    }
+    
+     
+    .ribbon-bottom-right {
+      bottom: -10px;
+      right: -10px;
+    }
+    .ribbon-bottom-right::before,
+    .ribbon-bottom-right::after {
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+    }
+    .ribbon-bottom-right::before {
+      bottom: 0;
+      left: 0;
+    }
+    .ribbon-bottom-right::after {
+      top: 0;
+      right: 0;
+    }
+    .ribbon-bottom-right span {
+      left: -25px;
+      bottom: 30px;
+      transform: rotate(-225deg);
+    }
+</style>
+
+<script rel="preconnect" defer src="https://kit.fontawesome.com/434862e682.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="https://wavect.io/css/main.css"/>
+
+  <link rel="stylesheet" href="https://wavect.io/css/custom.css"/>
+
+
+
+
+
+
+
+
+	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+<link rel="apple-touch-icon" href="/img/logos/apple-touch-icons/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/img/logos/apple-touch-icons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/img/logos/apple-touch-icons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/img/logos/apple-touch-icons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/img/logos/apple-touch-icons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/img/logos/apple-touch-icons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/img/logos/apple-touch-icons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/img/logos/apple-touch-icons/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/img/logos/apple-touch-icons/apple-touch-icon-180x180.png" />
+
+
+<meta name="keywords" content="wavect,hightech,innovation,blockchain,artificial intelligence,ai,iot,internet-of-things,partner,freelancer,software,prototyping">
+
+<meta http-equiv="cache-control" content="public"/>
+<meta name="author" content="Kevin Riedl"/>
+<meta name="copyright" content="&copy; 2020 Wavect, Riedl Kevin"/>
+
+    
+<meta property="og:site_name" content="Wavect.io" />
+
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image:alt" content="Wavect  - Like an employee, but without the hassle"/>
+<meta property="og:type" content="website"/>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+
+
+
+
+
+
+<script rel="preconnect" async src="https://www.googletagmanager.com/gtag/js?id=UA-145098098-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145098098-1');
+</script>
+
+
+
+	
+	
+	
+	
+	<meta name="description" content="Innovation is great and the rate of technological achievements accelerates. But what is great for humanity, can actually be quite a huge challenge for your organization and employees.">
+	<meta property="og:title" content="Change Management - How does your organization handle change?"/>
+	<meta property="og:description" content="Innovation is great and the rate of technological achievements accelerates. But what is great for humanity, can actually be quite a huge challenge for your organization and employees."/>
+	<meta property="og:url" content="https://wavect.io/blog/change-management-in-companies/"/>
+	<meta property="og:image" content="map[bak:map[x:/img/blog/headers/bak/blog_change-management-companies.jpg] jp2:map[x:/img/blog/headers/jp2/blog_change-management-companies.jp2] jxr:map[x:/img/blog/headers/jxr/blog_change-management-companies.jxr] webp:map[x:/img/blog/headers/webp/blog_change-management-companies.webp]]"/>
+
+	<title>Change Management - How does your organization handle change?: Your Long-Term partner for innovative software. | Wavect</title>
+
+	<link rel="canonical" href="https://wavect.io/blog/change-management-in-companies/"/>
+
+</head>
+
+<body>
+	
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  
+
+	
+	
+
+	
+	
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  xfbml            : true,
+		  version          : 'v8.0'
+		});
+	  };
+
+	  window.loadFbMessenger = function() {
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	}
+</script>
+
+	
+	<div class="fb-customerchat"
+		id="fb-chatplugin"
+	  attribution=setup_tool
+	  page_id="243867366515546"
+		theme_color="#76b9c3">
+	</div>
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="https://wavect.io" title="Home">
+        <picture>
+          <source srcset="https://wavect.io/img/logos/webp/logo_combination.webp 1x" type="image/webp">
+          <source srcset="https://wavect.io/img/logos/jxr/logo_combination.jxr 1x" type="image/vnd.ms-photo">
+          <source srcset="https://wavect.io/img/logos/jp2/logo_combination.jp2 1x" type="image/jp2">
+            
+          <img
+            class="img-responsive"
+            src="https://wavect.io/img/logos/bak/logo_combination.png"
+            srcset="https://wavect.io/img/logos/bak/logo_combination.png 1x" 
+            alt="Wavect Logo" title="Wavect Logo"/>
+        </picture>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://wavect.io" title="Home">HOME</a>
+          </li>
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/#services" title="Services">SERVICES
+                
+                  &nbsp;<i class="fas fa-caret-down"></i>
+                
+              </a>
+              
+                <ul class="dropdown-nav">
+                  
+                  <li class="nav-item dropdown-nav-item">
+                    <a href="/pricing" data-scroll class="dropdown-nav-link">
+                       <i class="fas fa-chevron-right"></i>&nbsp;PRICING
+                    </a>
+                  </li>
+                  
+                </ul>
+              
+          </li>
+          
+          
+            
+              <li class="nav-item only-on-mobile">
+                  <a data-scroll class="nav-link" href="/pricing" title="Pricing">PRICING</a>
+                </li>
+            
+        
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/#about" title="About">ABOUT
+                
+              </a>
+              
+          </li>
+          
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/#portfolio" title="Portfolio">PORTFOLIO
+                
+              </a>
+              
+          </li>
+          
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="/blog" title="Blog">BLOG
+                
+              </a>
+              
+          </li>
+          
+          
+          <li class="nav-item with-submenu">
+              <a data-scroll class="nav-link" href="https://token.wavect.io" title="Wavect-Token">WAVECT-TOKEN
+                
+              </a>
+              
+          </li>
+          
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+	
+
+<section id="blog" class="section section--border-bottom">
+    <div class="container">
+        <picture>
+            <source srcset="https://wavect.io/img/blog/headers/webp/blog_change-management-companies.webp 1x" type="image/webp">
+            <source srcset="https://wavect.io/img/blog/headers/jxr/blog_change-management-companies.jxr 1x" type="image/vnd.ms-photo">
+            <source srcset="https://wavect.io/img/blog/headers/jp2/blog_change-management-companies.jp2 1x" type="image/jp2">
+              
+            <img
+              class="card-img-top"
+              style="max-height:200px;object-fit:cover;margin-bottom:1em;"
+              src="https://wavect.io/img/blog/headers/bak/blog_change-management-companies.jpg"
+              srcset="https://wavect.io/img/blog/headers/bak/blog_change-management-companies.jpg 1x" 
+              alt="Change Management - How does your organization handle change?" title="Change Management - How does your organization handle change?"/>
+          </picture>
+        <div style="float:right;">   
+            <img src="https://img.shields.io/static/v1?label=Published+on&message=19.01.2021&color=blue" />
+            <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwavect.io%2Fblog%2Fchange-management-in-companies%2F&count_bg=%235DD0E4&title_bg=%23555555&icon=pagekit.svg&icon_color=%23E7E7E7&title=Read+today+%2F+all-time&edge_flat=false"/>
+        </div>
+        <h2 style="clear:both;margin-top:1em;">
+            Change Management - How does your organization handle change?
+        </h2>
+        <p class="lead">
+            Innovation is great and the rate of technological achievements accelerates. But what is great for humanity, can actually be quite a huge challenge for your organization and employees.
+        </p>
+        
+        <div class="row">
+            <div class="col-12">
+                <h3>1. Short introduction to Change Management</h3> <p class="lead">The world wide web changed everything, I think we all know that. And despite that the internet has been around for a while, many companies still seem to struggle to digitalize their business processes (and no I'm not talking about simply using Microsoft Office here). But that's not the actual problem. Many organizations (especially those which exist longer than the average company) tend not to be able to keep up with the <strong>rapid technological advancements</strong>.</p> <p class="lead">That's why some larger organizations devote some specific resources to change management to ensure that they don't miss out on important trend shifts. As innovation accelerates, the changes within an organization need to be well-controlled, managed and <strong>well-communicated to employees</strong>. Therefore, communication could be considered the key to successful change management as employees tend to reject changes.</p> <hr /> <h3>2. How to keep up with innovation?</h3> <p class="lead">Humanity get's more efficient day by day and every organization needs to find a way to avoid falling by the wayside. So, how could we do this? Just to clarify my point here; the more resources you have the easier it is to keep up with technological accomplishments but usually the <strong>more complex change management will become</strong>.</p> <p class="lead">Therefore, if you have enough resources, you could simply establish a new department in your organization. On the other hand, newer companies tend to already leverage modern technologies. And who is left? <strong>Small companies and medium-scale enterprises</strong>. So, let's see what they could do without spending resources they don't have.</p> <h4>2.1. Simply do your research</h4> <p class="lead">The easiest solution one could think of is doing some research. Be it by evaluating which companies tend to grow faster than others (e.g. AR/VR, blockchain, internet-of-things,...) or analyzing what your direct and indirect competitors have in the pipeline. Even if you don't trade or invest in other companies, you will certainly find it helpful to see how <strong>quoted organizations perform across different sectors</strong> which might allow you to conclude upcoming advancements or trends. Some dominant examples are hydrogen, electric-vehicles, cannabis or blockchain.</p> <h4>2.2. Analyze your own processes</h4> <p class="lead">There is a good chance that your company has many processes which are either <strong>obsolete or inefficient</strong>. Thus, analyzing where you or your employees could possibly save time / resources can be a short-term win as well as a good indicator for future or existing trends. Moreover, this analysis could lead you to new business models and increase employee satisfaction as they usually have to compensate ineffective processes.</p> <h4>2.3. Talk to your employees</h4> <p class="lead">What do your employees think (if you have some)? I'm sure they'll tell you all sorts of things where they think they could save a lot of time, what kinds of technologies you could introduce to make things more effective and what sorts of different problems occur in daily business. Many companies have some sort of feedback mechanisms (e.g. weekly meetings, open-door policies, feedback whiteboards, ...) but on much of this <strong>feedback is never acted on</strong> although being truly appreciated by leaders for the time being.</p> <hr /> <h3>3. How to do change management?</h3> <p class="lead">First of all, I can recommend you the book <a href="https://change-mich-am-arsch.com/" title="Change mich am Arsch - Prof. Axel Koch" target="_blank">"Change mich am Arsch" by Prof. Axel Koch</a> which is a German bestseller in this category. The book is actually not about how you should manage change, but rather how you shouldn't do it from an employee's perspective. By the way, we are not paid for the recommendation, so it's authentic.</p> <h4>3.1. Don't neglect your employees</h4> <p class="lead">When you consider huge changes within your organizations you should always start by talking to your employees. The reason for this is actually quite simple; your employees decide whether your <strong>changes work or if they are rejected</strong> at a certain point (either by leaving the company, doing it some other way or by not doing it sufficiently).</p> <h4>3.2. Are the pain points worth the risk?</h4> <p class="lead">Changes involve all sorts of risks. As a consequence you should always evaluate whether the <strong>pain point</strong> causing your desire to adapt or change is actually large enough. If not then you might be better off not making your employees uncomfortable by applying a perhaps unnecessary improvement.</p> <h4>3.3. Have a back-up plan</h4> <p class="lead">Introducing new processes or technologies can lead to <strong>unpredicted problems</strong> which might not be solveable over night. Thus, having a back up plan by e.g. having the old infrastructure / processes in place could save you a lot of headache.</p> <hr /> <h3>4. Trends in Business & Tech</h3> <h4>..with Carlos Sentís (CEO of WIA)</h4> <p class="lead">You'll find an interesting interview related to this topic below. First of all, thank you Carlos for having us! It's an honor to work with you and we should have more inspring souls like yours. <a title="Linkedin - Carlos Sentís" target="_blank" href="https://www.linkedin.com/in/carlossentis/">Carlos Sentís</a> is CEO of the <a href="https://wia.world" title="WIA - World Impact/Innovation Alliance" target="_blank">World Innovation Alliance</a>, appeared over 1.5k times in media, adviser, lecturer and has a broad network with over 130 countries.</p> <iframe width="100%" height="250vmin" src="https://www.youtube.com/embed/Pyv19F9g62Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <hr />
+            </div>
+        </div>
+
+        <div class="row">
+    <div class="col-12">
+        <p class="lead" style="margin-bottom:0;">
+            We try to give without expectations. Nevertheless, we are grateful for every like/follow if you want to support us. Thank you for reading :-)
+            <div>
+                
+                <script rel="preconnect" defer src="https://platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                <script type="IN/FollowCompany" data-id="19010151" data-counter="bottom"></script>
+
+                
+                <div class="fb-like" data-href="https://wavect.io" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+            </div>
+        </p>
+    </div>
+</div>
+        
+    </div>
+  </section>
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Wavect. All rights reserved.
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/" title="Home">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" title="About">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#services" title="Services">SERVICES</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/#portfolio" title="Portfolio">PORTFOLIO</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/blog/" title="Blog">BLOG</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/impressum" title="Impressum">IMPRESSUM</a>
+        </li>
+        
+      </ul>
+    </div>
+    <div class="footer__right">
+      <a href="/" title="Home">
+        <picture>
+          <source srcset="https://wavect.io/img/logos/webp/logo_square_white.webp 1x, https://wavect.io/img/logos/webp/logo_square_white@2x.webp 2x" type="image/webp">
+          <source srcset="https://wavect.io/img/logos/jxr/logo_square_white.jxr 1x, https://wavect.io/img/logos/jxr/logo_square_white@2x.jxr 2x" type="image/vnd.ms-photo">
+          <source srcset="https://wavect.io/img/logos/jp2/logo_square_white.jp2 1x, https://wavect.io/img/logos/jp2/logo_square_white@2x.jp2 2x" type="image/jp2">
+            
+          <img
+            class='hide-loading-indicator'
+            width="70"
+            src="https://wavect.io/img/logos/bak/logo_square_white.png"
+            srcset="https://wavect.io/img/logos/bak/logo_square_white.png 1x, https://wavect.io/img/logos/bak/logo_square_white@2x.png 2x" 
+            alt="Your longterm partner for Innovative Software Solutions - Wavect" title="Your longterm partner for Innovative Software Solutions - Wavect"/>
+        </picture>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+	
+
+<script rel="preconnect" src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+	
+	var originalCookieStorage = JSON.parse(JSON.stringify(document.cookie));
+
+	function enableCookies() {
+		loadFbMessenger();
+		
+
+	}
+
+	function deleteCookies() {
+	
+
+		
+
+
+		
+
+			
+	}
+
+	function disableCookies() {
+		
+
+		
+
+		
+	}
+
+
+
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39"
+    },
+    "button": {
+      "background": "#14a7d0"
+    }
+  },
+  "type": "opt-in",
+  onInitialise: function (status) {
+		var type = this.options.type;
+		var didConsent = this.hasConsented();
+		if (type == 'opt-in' && didConsent) {
+			
+			enableCookies();
+		}
+		if (type == 'opt-out' && !didConsent) {
+			
+			disableCookies();
+		}
+    },
+    onStatusChange: function(status, chosenBefore) {
+		var type = this.options.type;
+		var didConsent = this.hasConsented();
+		if (type == 'opt-in' && didConsent) {
+			
+			enableCookies();
+		}
+		if (type == 'opt-out' && !didConsent) {
+			
+			disableCookies();
+		}
+    },
+    onRevokeChoice: function() {
+		var type = this.options.type;
+		if (type == 'opt-in') {
+			
+			disableCookies();
+		}
+		if (type == 'opt-out') {
+			
+			enableCookies();
+		}
+    }
+});
+</script>
+
+<script src='https://wavect.io/js/library/radity-lib.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script rel="preconnect" src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script rel="preconnect" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+
+
+ 
+
+  const scroll = new SmoothScroll('a[href*="#"]');
+  $('a.nav-link').on('click', () => {
+    const navbar = $('.navbar-collapse');
+    if (navbar && navbar.hasClass('show')) {
+      $('.navbar-toggler').click();
+    }
+  })
+</script>
+
+
+</body>
+
+</html>
+
